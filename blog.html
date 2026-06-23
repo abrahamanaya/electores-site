@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Blog Electoral | Electores 40+</title>
+  <meta name="description" content="Artículos sobre el proceso electoral mexicano 2027, derechos del ciudadano y legislación electoral." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,700;0,900;1,700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/blog.css" />
+</head>
+<body>
+
+  <nav class="nav">
+    <div class="nav-inner">
+      <a href="index.html" class="nav-logo">ELECTORES <span>40+</span></a>
+      <button class="nav-toggle" aria-label="Menú" onclick="toggleMenu()">☰</button>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="index.html#curso">El Curso</a></li>
+        <li><a href="index.html#perfiles">Perfiles</a></li>
+        <li><a href="blog.html" class="active">Blog</a></li>
+        <li><a href="index.html#contacto" class="nav-cta">Inscribirme</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <header class="blog-hero">
+    <div class="container">
+      <div class="section-label">Conocimiento electoral</div>
+      <h1>Blog Electoral</h1>
+      <p>Artículos, análisis y guías prácticas sobre el proceso electoral mexicano 2027. Escritos por Abraham Anaya.</p>
+    </div>
+  </header>
+
+  <section class="section">
+    <div class="container">
+
+      <!-- POST DESTACADO -->
+      <div class="blog-featured">
+        <div class="blog-featured-content">
+          <div class="post-meta">
+            <span class="post-cat">Guía esencial</span>
+            <span class="post-date">Junio 2025</span>
+          </div>
+          <h2><a href="post.html">¿Qué hace exactamente un Representante de Casilla? Guía completa para 2027</a></h2>
+          <p>Todo lo que necesitas saber antes de acreditarte ante el INE. Derechos, obligaciones, documentos clave y los 5 errores más comunes que cometen los representantes sin capacitación.</p>
+          <div class="post-tags">
+            <span class="tag">Representante de Casilla</span>
+            <span class="tag">LGIPE</span>
+            <span class="tag">INE</span>
+          </div>
+          <a href="post.html" class="btn btn-primary">Leer artículo →</a>
+        </div>
+        <div class="blog-featured-img" aria-hidden="true">
+          <div class="feat-img-placeholder">
+            <span>🗳️</span>
+            <small>Capacitación Electoral 2027</small>
+          </div>
+        </div>
+      </div>
+
+      <!-- GRID DE POSTS -->
+      <div class="blog-grid">
+
+        <article class="post-card">
+          <div class="post-cat-pill" style="background:rgba(27,79,114,.1);color:#1B4F72">Sistema electoral</div>
+          <h3><a href="post.html">¿Cuál es la diferencia entre casilla básica, contigua y especial?</a></h3>
+          <p>No todas las casillas son iguales. Conoce los tipos, dónde se instalan y por qué importa para el representante.</p>
+          <div class="post-footer">
+            <span class="post-date">Mayo 2025</span>
+            <a href="post.html" class="post-link">Leer →</a>
+          </div>
+        </article>
+
+        <article class="post-card">
+          <div class="post-cat-pill" style="background:rgba(231,76,60,.1);color:#E74C3C">Derechos del ciudadano</div>
+          <h3><a href="post.html">Tu credencial de elector no vence para votar: lo que dice el INE</a></h3>
+          <p>El Acuerdo INE/CG50/2021 lo confirma. Qué hacer si te rechazan en casilla con una credencial "vencida".</p>
+          <div class="post-footer">
+            <span class="post-date">Mayo 2025</span>
+            <a href="post.html" class="post-link">Leer →</a>
+          </div>
+        </article>
+
+        <article class="post-card">
+          <div class="post-cat-pill" style="background:rgba(243,156,18,.12);color:#B7770D">Casos prácticos</div>
+          <h3><a href="post.html">Cómo presentar un escrito de protesta que tenga peso legal</a></h3>
+          <p>Paso a paso para que tu escrito de protesta sea válido y pueda servir como base para una impugnación ante el TEPJF.</p>
+          <div class="post-footer">
+            <span class="post-date">Abril 2025</span>
+            <a href="post.html" class="post-link">Leer →</a>
+          </div>
+        </article>
+
+        <article class="post-card">
+          <div class="post-cat-pill" style="background:rgba(27,79,114,.1);color:#1B4F72">Coordinadores</div>
+          <h3><a href="post.html">El Coordinador de Sección: la figura más subestimada de la elección</a></h3>
+          <p>Qué hace, qué no hace y por qué una sección bien coordinada puede marcar la diferencia en los resultados de un distrito.</p>
+          <div class="post-footer">
+            <span class="post-date">Abril 2025</span>
+            <a href="post.html" class="post-link">Leer →</a>
+          </div>
+        </article>
+
+        <article class="post-card">
+          <div class="post-cat-pill" style="background:rgba(231,76,60,.1);color:#E74C3C">Legislación</div>
+          <h3><a href="post.html">Los artículos de la LGIPE que todo representante debe memorizar</a></h3>
+          <p>Los 8 artículos más relevantes del proceso electoral, explicados en lenguaje ciudadano sin perder el rigor legal.</p>
+          <div class="post-footer">
+            <span class="post-date">Marzo 2025</span>
+            <a href="post.html" class="post-link">Leer →</a>
+          </div>
+        </article>
+
+        <article class="post-card post-card-cta">
+          <div class="post-cat-pill" style="background:rgba(243,156,18,.12);color:#B7770D">¿Te perdiste algo?</div>
+          <h3>Capacítate en 90 minutos y llega preparado al 2027</h3>
+          <p>El curso completo: 3 sesiones, material descargable, casos reales y constancia de participación.</p>
+          <a href="index.html#contacto" class="btn btn-primary" style="margin-top:8px">Inscribirme al taller</a>
+        </article>
+
+      </div>
+
+      <!-- NEWSLETTER -->
+      <div class="newsletter-box">
+        <div class="newsletter-text">
+          <h3>Recibe los próximos artículos en tu correo</h3>
+          <p>Sin spam. Solo contenido electoral útil, antes de que lo necesites.</p>
+        </div>
+        <div class="newsletter-form">
+          <input type="email" placeholder="tucorreo@ejemplo.com" class="email-input" />
+          <a href="index.html#contacto" class="btn btn-primary">Suscribirme</a>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="footer-inner">
+      <div class="footer-brand">
+        <span class="nav-logo">ELECTORES <span>40+</span></span>
+        <p>Capacitación Electoral Ciudadana para México 2027.<br/>Impulsado por Abraham Anaya.</p>
+        <a href="https://www.abrahamanaya.com" target="_blank">abrahamanaya.com →</a>
+      </div>
+      <div class="footer-links">
+        <strong>Sitio</strong>
+        <a href="index.html#curso">El Curso</a>
+        <a href="index.html#perfiles">Perfiles</a>
+        <a href="blog.html">Blog</a>
+        <a href="index.html#contacto">Contacto</a>
+      </div>
+      <div class="footer-links">
+        <strong>Legal</strong>
+        <a href="#">Aviso de privacidad</a>
+        <a href="#">Términos de uso</a>
+      </div>
+      <div class="footer-links">
+        <strong>Síguenos</strong>
+        <a href="https://twitter.com" target="_blank">𝕏 Twitter / X</a>
+        <a href="https://youtube.com" target="_blank">▶ YouTube</a>
+        <a href="https://www.abrahamanaya.com" target="_blank">🌐 Web principal</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2025 Electores 40+ · Abraham Anaya · Todos los derechos reservados</span>
+      <span>Base legal: LGIPE · Constitución Federal · Acuerdos INE vigentes</span>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
