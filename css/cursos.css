@@ -1,0 +1,157 @@
+/* ===== CURSOS DINÁMICOS — electores.abrahamanaya.com ===== */
+
+#seccion-cursos-dinamicos { padding: 96px 0; background: var(--light); }
+
+.cursos-dinamicos-header {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  margin-bottom: 40px;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+#cursos-actualizacion {
+  font-size: .78rem;
+  color: var(--muted);
+}
+
+#cursos-dinamicos {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  gap: 24px;
+}
+
+.cursos-empty {
+  grid-column: 1 / -1;
+  text-align: center;
+  padding: 48px;
+  color: var(--muted);
+}
+
+/* Tarjeta de curso */
+.curso-card-web {
+  background: var(--white);
+  border: 1.5px solid var(--border);
+  border-radius: 14px;
+  padding: 28px 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  transition: box-shadow .2s, transform .2s;
+}
+.curso-card-web:hover {
+  box-shadow: var(--shadow-lg);
+  transform: translateY(-3px);
+}
+
+.curso-card-web-header {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+.nivel-pill {
+  font-size: .7rem;
+  font-weight: 700;
+  letter-spacing: .07em;
+  text-transform: uppercase;
+  background: rgba(27,79,114,.1);
+  color: var(--brand);
+  padding: 3px 10px;
+  border-radius: 4px;
+}
+.sesiones-pill {
+  font-size: .7rem;
+  font-weight: 600;
+  background: rgba(231,76,60,.08);
+  color: var(--accent);
+  padding: 3px 10px;
+  border-radius: 4px;
+}
+
+.curso-card-web-title {
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: var(--dark);
+  line-height: 1.35;
+  font-family: 'Fraunces', Georgia, serif;
+}
+
+.curso-card-web-desc {
+  font-size: .88rem;
+  color: var(--muted);
+  line-height: 1.65;
+}
+
+.curso-card-web-obj strong {
+  display: block;
+  font-size: .78rem;
+  text-transform: uppercase;
+  letter-spacing: .06em;
+  color: var(--muted);
+  margin-bottom: 6px;
+}
+.curso-card-web-obj ul {
+  padding-left: 16px;
+  margin: 0;
+}
+.curso-card-web-obj li {
+  font-size: .85rem;
+  color: var(--text);
+  margin-bottom: 4px;
+  line-height: 1.5;
+}
+
+/* Sesiones mini */
+.curso-card-web-sesiones {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  border-top: 1px solid var(--border);
+  padding-top: 12px;
+}
+.sesion-mini {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.sesion-mini-num {
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  background: var(--brand);
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: .72rem;
+  font-weight: 700;
+  flex-shrink: 0;
+}
+.sesion-mini-titulo {
+  font-size: .82rem;
+  color: var(--text);
+  line-height: 1.4;
+}
+
+.curso-card-web-footer {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: auto;
+  padding-top: 12px;
+  border-top: 1px solid var(--border);
+}
+.audiencia-tag,
+.duracion-tag {
+  font-size: .75rem;
+  color: var(--muted);
+}
+.curso-card-web-footer .btn {
+  margin-left: auto;
+}
+
+@media (max-width: 640px) {
+  #cursos-dinamicos { grid-template-columns: 1fr; }
+}
+</style>

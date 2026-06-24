@@ -8,6 +8,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,700;0,900;1,700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/cursos.css" />
 </head>
 <body>
 
@@ -304,7 +305,7 @@
         Cupo limitado por grupo.
       </p>
       <div class="contact-options">
-        <a href="https://wa.me/523341150010?text=Hola%20Abraham%2C%20quiero%20inscribirme%20al%20curso%20Electores%2040%2B" target="_blank" class="contact-card">
+        <a href="https://wa.me/521XXXXXXXXXX?text=Hola%20Abraham%2C%20quiero%20inscribirme%20al%20curso%20Electores%2040%2B" target="_blank" class="contact-card">
           <div class="contact-icon">💬</div>
           <h4>WhatsApp</h4>
           <p>Respuesta en menos de 24 horas. Dinos tu nombre, ciudad y perfil de interés.</p>
@@ -319,6 +320,28 @@
       </div>
       <div class="contact-note">
         Próximamente: pago en línea con tarjeta y transferencia bancaria directamente en este sitio.
+      </div>
+    </div>
+  </section>
+
+  <!-- CURSOS DINÁMICOS — cargados desde cursos.json -->
+  <section id="seccion-cursos-dinamicos">
+    <div class="container">
+      <div class="cursos-dinamicos-header">
+        <div>
+          <div class="section-label">Oferta vigente</div>
+          <h2 class="section-title">
+            Cursos y talleres disponibles
+            <span id="cursos-contador" style="font-size:1.2rem;color:var(--accent);margin-left:10px"></span>
+          </h2>
+        </div>
+        <span id="cursos-actualizacion"></span>
+      </div>
+      <div id="cursos-dinamicos">
+        <!-- Se carga dinámicamente desde cursos.json -->
+        <div style="text-align:center;padding:48px;color:var(--muted)">
+          Cargando cursos...
+        </div>
       </div>
     </div>
   </section>
@@ -357,5 +380,6 @@
   </footer>
 
   <script src="js/main.js"></script>
+  <script src="js/cursos.js"></script>
 </body>
 </html>
