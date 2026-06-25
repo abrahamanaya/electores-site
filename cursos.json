@@ -1,13 +1,50 @@
 {
-  "actualizacion": "2026-06-25T14:59:51.214763",
+  "actualizacion": "2026-06-25T16:29:43.166478",
   "marca": "Abraham Anaya · Electores 40+",
   "web": "electores.abrahamanaya.com",
-  "total_cursos": 1,
+  "total_cursos": 2,
   "cursos": [
     {
       "id": 1,
-      "titulo": "Campañas Políticas en Redes Sociales: Normativa y Buenas Prácticas Electorales 2027",
-      "descripcion": "Capacitación integral sobre regulación electoral, creación de contenido político conforme a ley y prevención de delitos electorales en redes sociales. Dirigido a candidatos, operadores políticos y creadores de contenido para elecciones locales y federales 2027.",
+      "titulo": "Representante de Casilla, Representante General y Coordinador de Sección: Capacitación Electoral Ciudadana para las Elecciones Federales México 2027",
+      "descripcion": "Curso taller diseñado para preparar a ciudadanas y ciudadanos que deseen participar como Representantes de Casilla, Representantes Generales y Coordinadores de Sección en el proceso electoral federal de 2027 en México. Tres sesiones de máximo 30 minutos con enfoque práctico y accesible.",
+      "nivel": "intermedio",
+      "num_sesiones": 3,
+      "duracion": "30 minutos por sesión",
+      "audiencia": "Representantes de Casilla, Representantes Generales y Coordinadores de Sección designados por partidos políticos, candidaturas independientes y asociaciones civiles",
+      "sesiones": [
+        {
+          "numero": 1,
+          "titulo": "El Sistema Electoral Mexicano y el Papel del Representante Ciudadano",
+          "duracion": "30 minutos",
+          "objetivo": "Que los participantes identifiquen la estructura del sistema electoral mexicano y comprendan la importancia de su participación como representantes ciudadanos en la jornada electoral de 2027"
+        },
+        {
+          "numero": 2,
+          "titulo": "Representante de Casilla y Representante General: Funciones, Documentos y Diferencias",
+          "duracion": "30 minutos",
+          "objetivo": "Que los representantes electorales distingan con precisión las funciones del Representante de Casilla y el Representante General, y dominen los 5 documentos electorales clave durante la jornada"
+        },
+        {
+          "numero": 3,
+          "titulo": "El Coordinador de Sección: Liderazgo, Protocolo de Visita y Cierre de Casilla",
+          "duracion": "30 minutos",
+          "objetivo": "Que los Coordinadores de Sección comprendan su rol de liderazgo territorial, apliquen el protocolo de visita a casilla y gestionen correctamente el cierre y escrutinio conforme a la LGIPE"
+        }
+      ],
+      "objetivos": [
+        "Que los participantes conozcan el marco legal que rige la participación como representante electoral conforme a los Arts. 247-252 de la LGIPE",
+        "Que identifiquen y ejerzan los derechos y obligaciones del Representante de Casilla el día de la jornada electoral",
+        "Que dominen los 5 documentos electorales clave: Lista Nominal, Acta de Instalación, Acta de Escrutinio y Cómputo, Acta de Incidentes y Escrito de Protesta",
+        "Que el Coordinador de Sección comprenda su rol de liderazgo territorial y el protocolo de visita a casilla"
+      ],
+      "publicado_en": "25/06/2026",
+      "slug": "curso-1-representante-de-casilla,-repr"
+    },
+    {
+      "id": 2,
+      "titulo": "Campañas Políticas Modernas: Contenido Estratégico y Cumplimiento Electoral",
+      "descripcion": "Curso intermedio para ciudadanos sobre diseño, producción y difusión de contenidos digitales en campañas políticas. Enfatiza cumplimiento legal, narrativas persuasivas éticas y estrategias de marketing político efectivas.",
       "nivel": "intermedio",
       "num_sesiones": 3,
       "duracion": "30 minutos por sesión",
@@ -15,31 +52,31 @@
       "sesiones": [
         {
           "numero": 1,
-          "titulo": "Marco Legal y Ética en Campañas Políticas Digitales",
+          "titulo": "Campañas Políticas Modernas: Marco Legal y Creación de Contenido Estratégico",
           "duracion": "30 minutos por sesión",
-          "objetivo": "Comprender regulaciones electorales mexicanas y responsabilidades éticas al crear contenido político en redes sociales."
+          "objetivo": "Comprender el marco legal electoral mexicano y principios de contenido estratégico en campañas políticas modernas. Identificar límites legales en comunicación política."
         },
         {
           "numero": 2,
-          "titulo": "Estrategias de Segmentación y Mensajería Efectiva en Campañas Digitales",
+          "titulo": "Financiamiento Electoral y Transparencia en Campañas Políticas",
           "duracion": "30 minutos por sesión",
-          "objetivo": "Que participantes dominen técnicas de segmentación de audiencias y creación de mensajes políticos efectivos, respetando normativas de transparencia digital."
+          "objetivo": "Comprender las reglas de financiamiento electoral, fuentes de recursos permitidas y obligaciones de transparencia en campañas políticas mexicanas."
         },
         {
           "numero": 3,
-          "titulo": "Monitoreo, Transparencia y Rendición de Cuentas en Campañas Digitales",
+          "titulo": "Regulación de Redes Sociales, Desinformación y Responsabilidad en Campañas Digitales",
           "duracion": "30 minutos por sesión",
-          "objetivo": "Capacitar a creadores de contenido y candidatos sobre mecanismos de transparencia, monitoreo de gastos y cumplimiento normativo en campañas políticas digitales."
+          "objetivo": "Que los ciudadanos comprendan el marco legal sobre campañas digitales, identifiquen desinformación electoral y conozcan responsabilidades de candidatos y plataformas."
         }
       ],
       "objetivos": [
-        "Comprender marco normativo electoral mexicano aplicable a redes sociales",
-        "Identificar obligaciones legales de promotores de voto y candidatos",
-        "Reconocer delitos electorales y sanciones asociadas",
-        "Aplicar mejores prácticas en creación de contenido político conforme a ley"
+        "Dominar herramientas digitales para crear contenido político estratégico y persuasivo",
+        "Garantizar cumplimiento estricto de normativa electoral mexicana en campañas",
+        "Desarrollar narrativas éticas alineadas con marco legal de fiscalización",
+        "Aplicar marketing político efectivo respetando límites de gasto y difusión"
       ],
       "publicado_en": "25/06/2026",
-      "slug": "curso-1-campañas-políticas-en-redes-so"
+      "slug": "curso-2-campañas-políticas-modernas:-c"
     }
   ]
 }
