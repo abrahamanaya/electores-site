@@ -295,31 +295,144 @@
     </div>
   </section>
 
-  <!-- CONTACTO / INSCRIPCIÓN -->
+  <!-- CONTACTO / COTIZACIÓN -->
   <section class="section section-contact" id="contacto">
     <div class="container">
-      <div class="section-label">Inscripciones</div>
-      <h2 class="section-title">¿Listo para defender<br/>el voto desde adentro?</h2>
+      <div class="section-label">Cotizaciones e inscripciones</div>
+      <h2 class="section-title">¿Listo para capacitar<br/>a tu equipo?</h2>
       <p class="section-intro">
-        Por ahora las inscripciones son directas vía WhatsApp o correo.
-        Cupo limitado por grupo.
+        Completa el formulario y te enviamos una propuesta personalizada en menos de 24 horas.
+        Atendemos ciudadanos, asociaciones civiles, sindicatos, partidos y candidatos.
       </p>
-      <div class="contact-options">
-        <a href="https://wa.me/521XXXXXXXXXX?text=Hola%20Abraham%2C%20quiero%20inscribirme%20al%20curso%20Electores%2040%2B" target="_blank" class="contact-card">
-          <div class="contact-icon">💬</div>
-          <h4>WhatsApp</h4>
-          <p>Respuesta en menos de 24 horas. Dinos tu nombre, ciudad y perfil de interés.</p>
-          <span class="btn btn-primary">Escribir por WhatsApp</span>
-        </a>
-        <a href="mailto:contacto@abrahamanaya.com?subject=Inscripción%20Electores%2040%2B" class="contact-card">
-          <div class="contact-icon">✉️</div>
-          <h4>Correo electrónico</h4>
-          <p>Para grupos, proyectos especiales o solicitudes de cotización institucional.</p>
-          <span class="btn btn-primary">Enviar correo</span>
-        </a>
-      </div>
-      <div class="contact-note">
-        Próximamente: pago en línea con tarjeta y transferencia bancaria directamente en este sitio.
+
+      <div class="cotizacion-layout">
+
+        <!-- FORMULARIO -->
+        <div class="cotizacion-form-card">
+          <form id="form-cotizacion" onsubmit="enviarCotizacion(event)">
+            <div class="form-row-2">
+              <div class="form-group-web">
+                <label>Nombre completo *</label>
+                <input type="text" id="cot-nombre" required placeholder="Tu nombre"/>
+              </div>
+              <div class="form-group-web">
+                <label>Organización / Partido / Sindicato</label>
+                <input type="text" id="cot-org" placeholder="Opcional"/>
+              </div>
+            </div>
+            <div class="form-row-2">
+              <div class="form-group-web">
+                <label>Correo electrónico *</label>
+                <input type="email" id="cot-email" required placeholder="tu@correo.com"/>
+              </div>
+              <div class="form-group-web">
+                <label>WhatsApp / Teléfono</label>
+                <input type="tel" id="cot-tel" placeholder="33 1234 5678"/>
+              </div>
+            </div>
+            <div class="form-row-2">
+              <div class="form-group-web">
+                <label>Tipo de cliente *</label>
+                <select id="cot-tipo" required>
+                  <option value="">Selecciona...</option>
+                  <option value="ciudadano">Ciudadano individual</option>
+                  <option value="asociacion">Asociación civil / ONG</option>
+                  <option value="sindicato">Sindicato</option>
+                  <option value="partido">Partido político</option>
+                  <option value="candidato">Candidato / Candidata</option>
+                  <option value="gobierno">Gobierno municipal / estatal</option>
+                  <option value="empresa">Empresa privada</option>
+                </select>
+              </div>
+              <div class="form-group-web">
+                <label>Modalidad preferida</label>
+                <select id="cot-modalidad">
+                  <option value="">Selecciona...</option>
+                  <option value="Zoom / Virtual">Zoom / Virtual</option>
+                  <option value="Presencial Guadalajara">Presencial en Guadalajara</option>
+                  <option value="Presencial en mi ciudad">Presencial en mi ciudad</option>
+                  <option value="Híbrido">Híbrido</option>
+                </select>
+              </div>
+            </div>
+            <div class="form-row-2">
+              <div class="form-group-web">
+                <label>Número de participantes</label>
+                <select id="cot-personas">
+                  <option value="">Selecciona...</option>
+                  <option value="1-10">1 a 10 personas</option>
+                  <option value="11-30">11 a 30 personas</option>
+                  <option value="31-60">31 a 60 personas</option>
+                  <option value="61-100">61 a 100 personas</option>
+                  <option value="Más de 100">Más de 100 personas</option>
+                </select>
+              </div>
+              <div class="form-group-web">
+                <label>Tema de interés</label>
+                <select id="cot-tema">
+                  <option value="">Selecciona...</option>
+                  <option value="Representantes de casilla">Representantes de casilla</option>
+                  <option value="Derechos laborales y sindicales">Derechos laborales</option>
+                  <option value="Transparencia y acceso a la información">Transparencia</option>
+                  <option value="Participación ciudadana">Participación ciudadana</option>
+                  <option value="Derechos humanos">Derechos humanos</option>
+                  <option value="Género y participación política">Género y política</option>
+                  <option value="Otro">Otro (especificar abajo)</option>
+                </select>
+              </div>
+            </div>
+            <div class="form-group-web">
+              <label>Mensaje adicional</label>
+              <textarea id="cot-mensaje" rows="3" placeholder="Cuéntanos más sobre tus necesidades, fechas tentativas, ciudad, etc."></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary btn-lg" style="width:100%" id="btn-cotizar">
+              Solicitar cotización →
+            </button>
+            <div id="cot-resultado" style="display:none;margin-top:16px"></div>
+          </form>
+        </div>
+
+        <!-- SIDEBAR PRECIOS -->
+        <div class="cotizacion-sidebar">
+          <div class="precio-card">
+            <div class="precio-header">💬 Contacto directo</div>
+            <div class="precio-body">
+              <a href="https://wa.me/523341150010?text=Hola%20Abraham%2C%20quiero%20información%20sobre%20los%20talleres%20de%20Electores%2040%2B"
+                 target="_blank" class="btn btn-success" style="width:100%;margin-bottom:10px;display:block;text-align:center">
+                📱 WhatsApp directo
+              </a>
+              <a href="mailto:contacto@abrahamanaya.com?subject=Cotización%20Electores%2040%2B"
+                 class="btn btn-ghost" style="width:100%;display:block;text-align:center">
+                ✉ Enviar correo
+              </a>
+            </div>
+          </div>
+          <div class="precio-card">
+            <div class="precio-header">📋 Guía de precios</div>
+            <div class="precio-body">
+              <div class="precio-item"><span class="precio-label">Ciudadanos / Asociaciones</span><span class="precio-valor">$150–$350 MXN / persona</span></div>
+              <div class="precio-item"><span class="precio-label">Sindicatos (grupo)</span><span class="precio-valor">$5,000–$15,000 MXN</span></div>
+              <div class="precio-item"><span class="precio-label">Partidos políticos</span><span class="precio-valor">$8,000–$20,000 MXN</span></div>
+              <div class="precio-item"><span class="precio-label">Candidatos</span><span class="precio-valor">$3,000–$8,000 MXN</span></div>
+              <div class="precio-item"><span class="precio-label">Gobierno / Institucional</span><span class="precio-valor">Cotización especial</span></div>
+              <p style="font-size:.78rem;color:var(--muted);margin-top:12px">Incluye material completo, constancia digital y seguimiento. Precios finales según participantes y modalidad.</p>
+            </div>
+          </div>
+          <div class="precio-card" style="background:var(--dark);border-color:var(--dark)">
+            <div class="precio-body">
+              <strong style="color:var(--gold)">✅ Cada taller incluye</strong>
+              <ul style="margin:10px 0 0;padding-left:18px;font-size:.85rem;line-height:2;color:rgba(255,255,255,.75)">
+                <li>Material del participante PDF</li>
+                <li>Guía rápida de referencia</li>
+                <li>Presentación en diapositivas</li>
+                <li>Casos prácticos con base legal</li>
+                <li>Constancia digital con nombre</li>
+                <li>Sesión de preguntas y respuestas</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
       </div>
     </div>
   </section>

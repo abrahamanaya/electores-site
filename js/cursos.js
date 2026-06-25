@@ -55,7 +55,7 @@ async function cargarCursos() {
         <div class="curso-card-web-footer">
           <span class="audiencia-tag">👥 ${curso.audiencia}</span>
           <span class="duracion-tag">⏱ ${curso.duracion}</span>
-          <a href="#contacto" class="btn btn-primary btn-sm">Inscribirme →</a>
+          <a href="#contacto" class="btn btn-primary btn-sm">Solicitar información →</a>
         </div>
       </div>
     `).join("");

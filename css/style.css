@@ -629,3 +629,55 @@ em { font-style: italic; color: var(--accent); }
   .footer-inner { grid-template-columns: 1fr; gap: 32px; }
   .band-inner { flex-direction: column; align-items: flex-start; }
 }
+
+/* ===== COTIZACIÓN ===== */
+.cotizacion-layout {
+  display: grid;
+  grid-template-columns: 1fr 340px;
+  gap: 32px;
+  align-items: start;
+  margin-top: 40px;
+}
+.cotizacion-form-card {
+  background: var(--white);
+  border: 1.5px solid var(--border);
+  border-radius: 16px;
+  padding: 36px;
+}
+.form-row-2 { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin-bottom: 16px; }
+.form-group-web { display: flex; flex-direction: column; gap: 6px; margin-bottom: 16px; }
+.form-group-web label { font-size: .82rem; font-weight: 600; color: var(--dark); }
+.form-group-web input,
+.form-group-web select,
+.form-group-web textarea {
+  padding: 10px 14px;
+  border: 1.5px solid var(--border);
+  border-radius: 8px;
+  font-size: .92rem;
+  font-family: inherit;
+  color: var(--dark);
+  background: var(--white);
+  transition: border-color .2s;
+  outline: none;
+}
+.form-group-web input:focus,
+.form-group-web select:focus,
+.form-group-web textarea:focus { border-color: var(--brand); }
+.form-group-web textarea { resize: vertical; min-height: 80px; }
+
+/* Sidebar precios */
+.cotizacion-sidebar { display: flex; flex-direction: column; gap: 16px; }
+.precio-card { background: var(--white); border: 1.5px solid var(--border); border-radius: 12px; overflow: hidden; }
+.precio-header { background: var(--brand); color: var(--white); padding: 12px 18px; font-weight: 700; font-size: .9rem; }
+.precio-body { padding: 16px 18px; }
+.precio-item { display: flex; justify-content: space-between; align-items: center; padding: 8px 0; border-bottom: 1px solid var(--border); gap: 8px; }
+.precio-item:last-child { border-bottom: none; }
+.precio-label { font-size: .82rem; color: var(--muted); }
+.precio-valor { font-size: .82rem; font-weight: 700; color: var(--brand); text-align: right; }
+.btn-success { background: #25D366; color: white; border: none; }
+.btn-success:hover { background: #1da851; }
+
+@media (max-width: 860px) {
+  .cotizacion-layout { grid-template-columns: 1fr; }
+  .form-row-2 { grid-template-columns: 1fr; }
+}
