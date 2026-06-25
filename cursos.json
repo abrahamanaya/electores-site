@@ -1,0 +1,81 @@
+{
+  "actualizacion": "2026-06-24T22:36:12.564925",
+  "marca": "Abraham Anaya · Electores 40+",
+  "web": "electores.abrahamanaya.com",
+  "total_cursos": 2,
+  "cursos": [
+    {
+      "id": 1,
+      "titulo": "Representante de Casilla, Representante General y Coordinador de Sección: Capacitación Electoral Ciudadana para las Elecciones Federales México 2027",
+      "descripcion": "Curso de capacitación intermedia dirigido a representantes electorales acreditados ante el INE que deseen fortalecer sus conocimientos sobre derechos, obligaciones y procedimientos en materia electoral. El curso proporciona herramientas prácticas para actuar ante incidencias el día de la jornada electoral y dominar los documentos electorales clave.",
+      "nivel": "intermedio",
+      "num_sesiones": 3,
+      "duracion": "30 minutos por sesión",
+      "audiencia": "representantes electorales",
+      "sesiones": [
+        {
+          "numero": 1,
+          "titulo": "Marco Legal y Funciones Fundamentales del Representante de Casilla",
+          "duracion": "30 minutos por sesión",
+          "objetivo": "Que los participantes identifiquen el marco legal aplicable y comprendan las funciones específicas del Representante de Casilla conforme a la LGIPE y ordenamientos electorales mexicanos."
+        },
+        {
+          "numero": 2,
+          "titulo": "Funciones, Responsabilidades y Autoridad del Representante de Casilla y Representante General",
+          "duracion": "30 minutos por sesión",
+          "objetivo": "Que el participante identifique y diferencie las funciones específicas, facultades y responsabilidades del Representante de Casilla y del Representante General dentro del proceso electoral, aplicando la normatividad vigente para las elecciones federales 2027."
+        },
+        {
+          "numero": 3,
+          "titulo": "Funciones, Responsabilidades y Conflictos en la Casilla: Del Representante al Coordinador",
+          "duracion": "30 minutos por sesión",
+          "objetivo": "Que los representantes electorales identifiquen y resuelvan conflictos comunes en casilla aplicando los protocolos legales establecidos en la LGIPE y LNNR para garantizar elecciones ordenadas."
+        }
+      ],
+      "objetivos": [
+        "Conocer y ejercer los derechos y obligaciones legales como representantes acreditados ante el Instituto Nacional Electoral (INE) conforme a la legislación electoral mexicana vigente",
+        "Identificar y actuar correctamente ante las principales incidencias electorales del día de la elección: casilla sin presidente, credencial vencida, urna manipulada y abandono de representante",
+        "Dominar la lectura, interpretación y uso correcto de los cinco documentos electorales clave: Lista Nominal, Acta de Instalación, Acta de Escrutinio y Cómputo, Acta de Incidentes y Escrito de Protesta",
+        "Comprender el rol de liderazgo territorial y de gestión de equipos del Coordinador de Sección durante la jornada electoral"
+      ],
+      "publicado_en": "24/06/2026",
+      "slug": "curso-1-representante-de-casilla,-repr"
+    },
+    {
+      "id": 2,
+      "titulo": "Curso Taller para Promotores del Voto y Representantes Seccionales de Candidatos y Partidos Políticos",
+      "descripcion": "Capacitación integral diseñada para formar promotores electorales y representantes seccionales con competencias en organización, comunicación empática y movilización ciudadana. El curso proporciona herramientas prácticas para recorrer secciones, establecer contacto directo con ciudadanos y comunicar propuestas de manera efectiva durante procesos electorales.",
+      "nivel": "intermedio",
+      "num_sesiones": 3,
+      "duracion": "30 minutos por sesión",
+      "audiencia": "ciudadanos en general",
+      "sesiones": [
+        {
+          "numero": 1,
+          "titulo": "Marco Legal Electoral en México: Derechos y Obligaciones del Promotor de Voto",
+          "duracion": "30 minutos por sesión",
+          "objetivo": "Que el participante identifique y comprenda el marco legal que regula la actividad de promotores del voto y representantes seccionales, reconociendo sus derechos y obligaciones conforme a la Constitución y la LGIPE."
+        },
+        {
+          "numero": 2,
+          "titulo": "Derechos y Obligaciones de Promotores del Voto y Representantes Seccionales",
+          "duracion": "30 minutos por sesión",
+          "objetivo": "Que los participantes identifiquen y apliquen correctamente los derechos y obligaciones establecidos en la Ley General del Sistema de Elecciones Democráticas para promotores del voto y representantes seccionales, demostrando comprensión mediante casos prácticos."
+        },
+        {
+          "numero": 3,
+          "titulo": "Fiscalización Electoral, Transparencia y Resolución de Conflictos",
+          "duracion": "30 minutos por sesión",
+          "objetivo": "Que los participantes comprendan los mecanismos de fiscalización electoral, las obligaciones de transparencia y los procedimientos para resolver controversias electorales, aplicables a su rol como promotores y representantes seccionales."
+        }
+      ],
+      "objetivos": [
+        "Capacitar a los participantes en marcos legales, procedimientos y responsabilidades de promotores del voto y representantes seccionales conforme a la legislación electoral mexicana",
+        "Desarrollar habilidades de comunicación asertiva y empatía para establecer diálogos efectivos con ciudadanos y motivar la participación electoral",
+        "Proporcionar estrategias de organización territorial, planeación de recorridos y movilización de votantes en secciones electorales"
+      ],
+      "publicado_en": "24/06/2026",
+      "slug": "curso-2-curso-taller-para-promotores-d"
+    }
+  ]
+}
