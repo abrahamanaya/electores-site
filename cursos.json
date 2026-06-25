@@ -1,8 +1,8 @@
 {
-  "actualizacion": "2026-06-25T16:29:43.166478",
+  "actualizacion": "2026-06-25T16:44:59.917221",
   "marca": "Abraham Anaya · Electores 40+",
   "web": "electores.abrahamanaya.com",
-  "total_cursos": 2,
+  "total_cursos": 3,
   "cursos": [
     {
       "id": 1,
@@ -77,6 +77,43 @@
       ],
       "publicado_en": "25/06/2026",
       "slug": "curso-2-campañas-políticas-modernas:-c"
+    },
+    {
+      "id": 3,
+      "titulo": "Participación Ciudadana y Democracia en México: Incidencia Política Local y Federal",
+      "descripcion": "Curso práctico para ciudadanos que deseen fortalecer su participación democrática, comunicación efectiva con autoridades electas y fiscalización política en niveles municipal, estatal y federal. Desarrolla competencias de incidencia ciudadana e influencia en decisiones públicas.",
+      "nivel": "intermedio",
+      "num_sesiones": 3,
+      "duracion": "30 minutos por sesión",
+      "audiencia": "ciudadanos en general",
+      "sesiones": [
+        {
+          "numero": 1,
+          "titulo": "Fundamentos de la Participación Ciudadana en México",
+          "duracion": "30 minutos por sesión",
+          "objetivo": "Comprender los derechos y mecanismos de participación ciudadana establecidos en la Constitución Política Mexicana. Identificar cómo los ciudadanos pueden incidir en decisiones públicas."
+        },
+        {
+          "numero": 2,
+          "titulo": "Mecanismos de Participación Ciudadana: Consulta Pública y Referéndum",
+          "duracion": "30 minutos",
+          "objetivo": "Que los ciudadanos conozcan y comprendan los mecanismos formales de participación directa en decisiones públicas. Identificar cuándo y cómo pueden ejercer consulta pública y referéndum en México."
+        },
+        {
+          "numero": 3,
+          "titulo": "Rendición de Cuentas y Transparencia: Herramientas de Control Ciudadano",
+          "duracion": "30 minutos por sesión",
+          "objetivo": "Que los ciudadanos comprendan mecanismos de rendición de cuentas y transparencia para ejercer control sobre autoridades. Identificarán herramientas legales para acceder a información pública y exigir responsabilidad."
+        }
+      ],
+      "objetivos": [
+        "Comprender mecanismos de participación ciudadana en democracia mexicana",
+        "Desarrollar habilidades de comunicación y diálogo con representantes electos",
+        "Ejercer fiscalización ciudadana sobre autoridades municipales, estatales y federales",
+        "Identificar canales de incidencia política para influir en políticas públicas"
+      ],
+      "publicado_en": "25/06/2026",
+      "slug": "curso-3-participación-ciudadana-y-demo"
     }
   ]
 }
