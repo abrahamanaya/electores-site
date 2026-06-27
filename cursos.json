@@ -1,30 +1,11 @@
 {
-  "generado": "2027-06-27",
-  "total": 2,
+  "generado": "2026-06-27",
+  "total": 3,
   "cursos": [
     {
       "id": 1,
-      "titulo": "Campañas Políticas en Redes Sociales: Normativa y Buenas Prácticas",
-      "descripcion": "Curso para candidatos y creadores de contenido digital sobre estrategia, normativa electoral y mejores prácticas en redes sociales durante campañas políticas en México 2027.",
-      "nivel": "intermedio",
-      "num_sesiones": 3,
-      "duracion": "30 minutos por sesión",
-      "audiencia": "Candidatos, asesores de campaña y creadores de contenido digital",
-      "objetivos": [
-        "Conocer la normativa electoral aplicable a campañas en redes sociales según la LEGIPE",
-        "Desarrollar estrategia de contenido digital efectiva y legal para campaña",
-        "Identificar prácticas prohibidas y evitar sanciones del INE"
-      ],
-      "sesiones": [
-        {"numero": 1, "titulo": "Marco legal de campañas digitales en México"},
-        {"numero": 2, "titulo": "Estrategia de contenido y plataformas clave"},
-        {"numero": 3, "titulo": "Casos prácticos y resolución de conflictos digitales"}
-      ]
-    },
-    {
-      "id": 2,
       "titulo": "Representante de Casilla, Representante General y Coordinador de Sección: Capacitación Electoral Ciudadana para las Elecciones Federales México 2027",
-      "descripcion": "Curso taller para preparar a ciudadanos que participarán como representantes electorales en el proceso federal 2027. Tres sesiones prácticas con fundamento legal verificable.",
+      "descripcion": "Curso taller para preparar a ciudadanos que participarán como representantes electorales en el proceso federal 2027. Tres sesiones prácticas con fundamento legal verificable en la LGIPE.",
       "nivel": "intermedio",
       "num_sesiones": 3,
       "duracion": "30 minutos por sesión",
@@ -35,9 +16,74 @@
         "Aplicar el protocolo de visita a casilla y gestionar el cierre de jornada electoral"
       ],
       "sesiones": [
-        {"numero": 1, "titulo": "El Sistema Electoral Mexicano y el Papel del Representante Ciudadano"},
-        {"numero": 2, "titulo": "Representante de Casilla y General: Funciones, Documentos y Diferencias"},
-        {"numero": 3, "titulo": "El Coordinador de Sección: Liderazgo, Protocolo y Cierre de Casilla"}
+        {
+          "numero": 1,
+          "titulo": "El Sistema Electoral Mexicano y el Papel del Representante Ciudadano"
+        },
+        {
+          "numero": 2,
+          "titulo": "Representante de Casilla y General: Funciones, Documentos y Diferencias"
+        },
+        {
+          "numero": 3,
+          "titulo": "El Coordinador de Sección: Liderazgo, Protocolo y Cierre de Casilla"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "titulo": "Campañas Políticas Modernas: Contenido Estratégico y Cumplimiento Electoral",
+      "descripcion": "Curso para candidatos, asesores y creadores de contenido digital sobre estrategia, normativa electoral y mejores prácticas en campañas políticas en México 2027.",
+      "nivel": "intermedio",
+      "num_sesiones": 3,
+      "duracion": "30 minutos por sesión",
+      "audiencia": "Candidatos, asesores de campaña y creadores de contenido digital",
+      "objetivos": [
+        "Conocer la normativa electoral aplicable a campañas en redes sociales según la LEGIPE",
+        "Desarrollar estrategia de contenido digital efectiva y legal para campaña política",
+        "Identificar prácticas prohibidas y evitar sanciones del INE en medios digitales"
+      ],
+      "sesiones": [
+        {
+          "numero": 1,
+          "titulo": "Marco legal de campañas digitales en México"
+        },
+        {
+          "numero": 2,
+          "titulo": "Estrategia de contenido y plataformas clave"
+        },
+        {
+          "numero": 3,
+          "titulo": "Cumplimiento electoral y manejo de crisis digital"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "titulo": "Participación Ciudadana y Democracia en México: Incidencia Política Local",
+      "descripcion": "Taller para ciudadanos, activistas y organizaciones civiles sobre mecanismos de participación ciudadana, incidencia política local y derechos políticos en México.",
+      "nivel": "básico",
+      "num_sesiones": 3,
+      "duracion": "30 minutos por sesión",
+      "audiencia": "Ciudadanos, activistas, líderes comunitarios y organizaciones de la sociedad civil",
+      "objetivos": [
+        "Identificar los mecanismos de participación ciudadana disponibles en México",
+        "Conocer los derechos políticos garantizados por la Constitución y la LGIPE",
+        "Desarrollar estrategias de incidencia política a nivel local y municipal"
+      ],
+      "sesiones": [
+        {
+          "numero": 1,
+          "titulo": "Derechos políticos y mecanismos de participación ciudadana en México"
+        },
+        {
+          "numero": 2,
+          "titulo": "Incidencia política local: cómo influir en decisiones de gobierno"
+        },
+        {
+          "numero": 3,
+          "titulo": "Organización ciudadana y construcción de agenda política"
+        }
       ]
     }
   ]
