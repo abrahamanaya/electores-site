@@ -18,11 +18,11 @@
       <a href="index.html" class="nav-logo">ELECTORES <span>40+</span></a>
       <button class="nav-toggle" aria-label="Menú" onclick="toggleMenu()">☰</button>
       <ul class="nav-links" id="navLinks">
-        <li><a href="#curso">El Curso</a></li>
+        <li><a href="#seccion-cursos-dinamicos" style="font-weight:700;color:var(--accent)">Ver cursos →</a></li>
+        <li><a href="#curso">El Programa</a></li>
         <li><a href="#perfiles">Perfiles</a></li>
-        <li><a href="#temario">Temario</a></li>
         <li><a href="blog.html">Blog</a></li>
-        <li><a href="#contacto" class="nav-cta">Inscribirme</a></li>
+        <li><a href="#contacto" class="nav-cta">Solicitar información</a></li>
       </ul>
     </div>
   </nav>
@@ -42,7 +42,7 @@
         Sin tecnicismos. Con casos reales.
       </p>
       <div class="hero-actions">
-        <a href="#contacto" class="btn btn-primary">Quiero inscribirme</a>
+        <a href="#seccion-cursos-dinamicos" class="btn btn-primary">Ver cursos disponibles →</a>
         <a href="#curso" class="btn btn-ghost">Ver el programa →</a>
       </div>
       <div class="hero-stats">
@@ -442,13 +442,19 @@
     <div class="container">
       <div class="cursos-dinamicos-header">
         <div>
-          <div class="section-label">Oferta vigente</div>
+          <div class="section-label">📚 Oferta vigente</div>
           <h2 class="section-title">
             Cursos y talleres disponibles
-            <span id="cursos-contador" style="font-size:1.2rem;color:var(--accent);margin-left:10px"></span>
+            <span id="cursos-contador" style="font-size:1.2rem;color:var(--accent);margin-left:10px;background:rgba(231,76,60,.12);padding:2px 12px;border-radius:20px"></span>
           </h2>
+          <p style="color:var(--muted);font-size:.95rem;margin-top:8px">
+            Talleres de capacitación ciudadana en derechos electorales, laborales y políticos.
+            Modalidades Zoom y presencial en Guadalajara.
+          </p>
         </div>
-        <span id="cursos-actualizacion"></span>
+        <a href="#contacto" class="btn btn-primary" style="white-space:nowrap;align-self:center">
+          Solicitar cotización →
+        </a>
       </div>
       <div id="cursos-dinamicos">
         <!-- Se carga dinámicamente desde cursos.json -->

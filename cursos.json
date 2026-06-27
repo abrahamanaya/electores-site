@@ -1,119 +1,44 @@
 {
-  "actualizacion": "2026-06-25T16:44:59.917221",
-  "marca": "Abraham Anaya · Electores 40+",
-  "web": "electores.abrahamanaya.com",
-  "total_cursos": 3,
+  "generado": "2027-06-27",
+  "total": 2,
   "cursos": [
     {
       "id": 1,
-      "titulo": "Representante de Casilla, Representante General y Coordinador de Sección: Capacitación Electoral Ciudadana para las Elecciones Federales México 2027",
-      "descripcion": "Curso taller diseñado para preparar a ciudadanas y ciudadanos que deseen participar como Representantes de Casilla, Representantes Generales y Coordinadores de Sección en el proceso electoral federal de 2027 en México. Tres sesiones de máximo 30 minutos con enfoque práctico y accesible.",
+      "titulo": "Campañas Políticas en Redes Sociales: Normativa y Buenas Prácticas",
+      "descripcion": "Curso para candidatos y creadores de contenido digital sobre estrategia, normativa electoral y mejores prácticas en redes sociales durante campañas políticas en México 2027.",
       "nivel": "intermedio",
       "num_sesiones": 3,
       "duracion": "30 minutos por sesión",
-      "audiencia": "Representantes de Casilla, Representantes Generales y Coordinadores de Sección designados por partidos políticos, candidaturas independientes y asociaciones civiles",
-      "sesiones": [
-        {
-          "numero": 1,
-          "titulo": "El Sistema Electoral Mexicano y el Papel del Representante Ciudadano",
-          "duracion": "30 minutos",
-          "objetivo": "Que los participantes identifiquen la estructura del sistema electoral mexicano y comprendan la importancia de su participación como representantes ciudadanos en la jornada electoral de 2027"
-        },
-        {
-          "numero": 2,
-          "titulo": "Representante de Casilla y Representante General: Funciones, Documentos y Diferencias",
-          "duracion": "30 minutos",
-          "objetivo": "Que los representantes electorales distingan con precisión las funciones del Representante de Casilla y el Representante General, y dominen los 5 documentos electorales clave durante la jornada"
-        },
-        {
-          "numero": 3,
-          "titulo": "El Coordinador de Sección: Liderazgo, Protocolo de Visita y Cierre de Casilla",
-          "duracion": "30 minutos",
-          "objetivo": "Que los Coordinadores de Sección comprendan su rol de liderazgo territorial, apliquen el protocolo de visita a casilla y gestionen correctamente el cierre y escrutinio conforme a la LGIPE"
-        }
-      ],
+      "audiencia": "Candidatos, asesores de campaña y creadores de contenido digital",
       "objetivos": [
-        "Que los participantes conozcan el marco legal que rige la participación como representante electoral conforme a los Arts. 247-252 de la LGIPE",
-        "Que identifiquen y ejerzan los derechos y obligaciones del Representante de Casilla el día de la jornada electoral",
-        "Que dominen los 5 documentos electorales clave: Lista Nominal, Acta de Instalación, Acta de Escrutinio y Cómputo, Acta de Incidentes y Escrito de Protesta",
-        "Que el Coordinador de Sección comprenda su rol de liderazgo territorial y el protocolo de visita a casilla"
+        "Conocer la normativa electoral aplicable a campañas en redes sociales según la LEGIPE",
+        "Desarrollar estrategia de contenido digital efectiva y legal para campaña",
+        "Identificar prácticas prohibidas y evitar sanciones del INE"
       ],
-      "publicado_en": "25/06/2026",
-      "slug": "curso-1-representante-de-casilla,-repr"
+      "sesiones": [
+        {"numero": 1, "titulo": "Marco legal de campañas digitales en México"},
+        {"numero": 2, "titulo": "Estrategia de contenido y plataformas clave"},
+        {"numero": 3, "titulo": "Casos prácticos y resolución de conflictos digitales"}
+      ]
     },
     {
       "id": 2,
-      "titulo": "Campañas Políticas Modernas: Contenido Estratégico y Cumplimiento Electoral",
-      "descripcion": "Curso intermedio para ciudadanos sobre diseño, producción y difusión de contenidos digitales en campañas políticas. Enfatiza cumplimiento legal, narrativas persuasivas éticas y estrategias de marketing político efectivas.",
+      "titulo": "Representante de Casilla, Representante General y Coordinador de Sección: Capacitación Electoral Ciudadana para las Elecciones Federales México 2027",
+      "descripcion": "Curso taller para preparar a ciudadanos que participarán como representantes electorales en el proceso federal 2027. Tres sesiones prácticas con fundamento legal verificable.",
       "nivel": "intermedio",
       "num_sesiones": 3,
       "duracion": "30 minutos por sesión",
-      "audiencia": "ciudadanos en general",
-      "sesiones": [
-        {
-          "numero": 1,
-          "titulo": "Campañas Políticas Modernas: Marco Legal y Creación de Contenido Estratégico",
-          "duracion": "30 minutos por sesión",
-          "objetivo": "Comprender el marco legal electoral mexicano y principios de contenido estratégico en campañas políticas modernas. Identificar límites legales en comunicación política."
-        },
-        {
-          "numero": 2,
-          "titulo": "Financiamiento Electoral y Transparencia en Campañas Políticas",
-          "duracion": "30 minutos por sesión",
-          "objetivo": "Comprender las reglas de financiamiento electoral, fuentes de recursos permitidas y obligaciones de transparencia en campañas políticas mexicanas."
-        },
-        {
-          "numero": 3,
-          "titulo": "Regulación de Redes Sociales, Desinformación y Responsabilidad en Campañas Digitales",
-          "duracion": "30 minutos por sesión",
-          "objetivo": "Que los ciudadanos comprendan el marco legal sobre campañas digitales, identifiquen desinformación electoral y conozcan responsabilidades de candidatos y plataformas."
-        }
-      ],
+      "audiencia": "Representantes de Casilla, Representantes Generales y Coordinadores de Sección designados por partidos políticos, candidaturas y asociaciones civiles",
       "objetivos": [
-        "Dominar herramientas digitales para crear contenido político estratégico y persuasivo",
-        "Garantizar cumplimiento estricto de normativa electoral mexicana en campañas",
-        "Desarrollar narrativas éticas alineadas con marco legal de fiscalización",
-        "Aplicar marketing político efectivo respetando límites de gasto y difusión"
+        "Conocer el marco legal del representante electoral según Arts. 247-252 LGIPE",
+        "Dominar los 5 documentos electorales clave: Lista Nominal, Actas y Escrito de Protesta",
+        "Aplicar el protocolo de visita a casilla y gestionar el cierre de jornada electoral"
       ],
-      "publicado_en": "25/06/2026",
-      "slug": "curso-2-campañas-políticas-modernas:-c"
-    },
-    {
-      "id": 3,
-      "titulo": "Participación Ciudadana y Democracia en México: Incidencia Política Local y Federal",
-      "descripcion": "Curso práctico para ciudadanos que deseen fortalecer su participación democrática, comunicación efectiva con autoridades electas y fiscalización política en niveles municipal, estatal y federal. Desarrolla competencias de incidencia ciudadana e influencia en decisiones públicas.",
-      "nivel": "intermedio",
-      "num_sesiones": 3,
-      "duracion": "30 minutos por sesión",
-      "audiencia": "ciudadanos en general",
       "sesiones": [
-        {
-          "numero": 1,
-          "titulo": "Fundamentos de la Participación Ciudadana en México",
-          "duracion": "30 minutos por sesión",
-          "objetivo": "Comprender los derechos y mecanismos de participación ciudadana establecidos en la Constitución Política Mexicana. Identificar cómo los ciudadanos pueden incidir en decisiones públicas."
-        },
-        {
-          "numero": 2,
-          "titulo": "Mecanismos de Participación Ciudadana: Consulta Pública y Referéndum",
-          "duracion": "30 minutos",
-          "objetivo": "Que los ciudadanos conozcan y comprendan los mecanismos formales de participación directa en decisiones públicas. Identificar cuándo y cómo pueden ejercer consulta pública y referéndum en México."
-        },
-        {
-          "numero": 3,
-          "titulo": "Rendición de Cuentas y Transparencia: Herramientas de Control Ciudadano",
-          "duracion": "30 minutos por sesión",
-          "objetivo": "Que los ciudadanos comprendan mecanismos de rendición de cuentas y transparencia para ejercer control sobre autoridades. Identificarán herramientas legales para acceder a información pública y exigir responsabilidad."
-        }
-      ],
-      "objetivos": [
-        "Comprender mecanismos de participación ciudadana en democracia mexicana",
-        "Desarrollar habilidades de comunicación y diálogo con representantes electos",
-        "Ejercer fiscalización ciudadana sobre autoridades municipales, estatales y federales",
-        "Identificar canales de incidencia política para influir en políticas públicas"
-      ],
-      "publicado_en": "25/06/2026",
-      "slug": "curso-3-participación-ciudadana-y-demo"
+        {"numero": 1, "titulo": "El Sistema Electoral Mexicano y el Papel del Representante Ciudadano"},
+        {"numero": 2, "titulo": "Representante de Casilla y General: Funciones, Documentos y Diferencias"},
+        {"numero": 3, "titulo": "El Coordinador de Sección: Liderazgo, Protocolo y Cierre de Casilla"}
+      ]
     }
   ]
 }
