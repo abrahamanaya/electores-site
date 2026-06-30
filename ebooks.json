@@ -10,7 +10,8 @@
       "precio_tachado": 139,
       "categoria": "Voto",
       "color": "#1B4F72",
-      "descripcion": "Guía completa sobre las tres formas de ejercer tu voto + plantillas de estrategia de voto y denuncia de coacción."
+      "descripcion": "Guía completa sobre las tres formas de ejercer tu voto + plantillas de estrategia de voto y denuncia de coacción.",
+      "link": "https://pay.hotmart.com/I106550217K"
     },
     {
       "id": 2,
@@ -21,7 +22,8 @@
       "precio_tachado": 129,
       "categoria": "Elecciones 2027",
       "color": "#C0392B",
-      "descripcion": "Todo sobre tus derechos y protocolos + checklist, formato de protesta y bitácora de coordinador listos para usar."
+      "descripcion": "Todo sobre tus derechos y protocolos + checklist, formato de protesta y bitácora de coordinador listos para usar.",
+      "link": "https://pay.hotmart.com/L106554755E"
     },
     {
       "id": 3,
@@ -32,7 +34,8 @@
       "precio_tachado": 99,
       "categoria": "Campañas",
       "color": "#F39C12",
-      "descripcion": "Estrategia digital y normativa + checklist de cumplimiento y plan semanal de contenido."
+      "descripcion": "Estrategia digital y normativa + checklist de cumplimiento y plan semanal de contenido.",
+      "link": "https://pay.hotmart.com/Q106554847Y"
     },
     {
       "id": 4,
@@ -43,7 +46,8 @@
       "precio_tachado": 89,
       "categoria": "Civismo",
       "color": "#1A7A3C",
-      "descripcion": "Mecanismos legales de participación + formato de petición y plan de incidencia comunitaria."
+      "descripcion": "Mecanismos legales de participación + formato de petición y plan de incidencia comunitaria.",
+      "link": "https://pay.hotmart.com/C106554912X"
     },
     {
       "id": 5,
@@ -54,7 +58,8 @@
       "precio_tachado": 99,
       "categoria": "Derechos Laborales",
       "color": "#6B1C2C",
-      "descripcion": "Identifica violaciones laborales + registro de jornada y formato de queja ante la STPS."
+      "descripcion": "Identifica violaciones laborales + registro de jornada y formato de queja ante la STPS.",
+      "link": "https://pay.hotmart.com/Y106554983M"
     },
     {
       "id": 6,
@@ -65,7 +70,8 @@
       "precio_tachado": 89,
       "categoria": "Transparencia",
       "color": "#5D6D7E",
-      "descripcion": "Solicita información pública + plantilla lista y plan de investigación en serie."
+      "descripcion": "Solicita información pública + plantilla lista y plan de investigación en serie.",
+      "link": "https://pay.hotmart.com/V106555033K"
     }
   ]
 }

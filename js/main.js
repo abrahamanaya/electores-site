@@ -142,9 +142,9 @@ async function cargarEbooks() {
             <span class="ebook-precio-final">$${eb.precio}</span>
             <span class="ebook-precio-moneda">MXN</span>
           </div>
-          <a href="https://wa.me/523341150010?text=${encodeURIComponent('Hola Abraham, quiero el ebook: ' + eb.titulo)}"
-             target="_blank" class="btn btn-primary btn-sm ebook-cta" style="width:100%;text-align:center;display:block">
-            Comprar ahora →
+          <a href="${eb.link}" target="_blank" rel="noopener"
+             class="btn btn-primary btn-sm ebook-cta" style="width:100%;text-align:center;display:block">
+            Comprar ahora — $${eb.precio} MXN →
           </a>
         </div>
       </div>
