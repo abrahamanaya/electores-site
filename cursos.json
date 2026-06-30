@@ -1,8 +1,8 @@
 {
-  "actualizacion": "2026-06-29T18:43:24.492351",
+  "actualizacion": "2026-06-29T18:57:21.162198",
   "marca": "Abraham Anaya · Electores 40+",
   "web": "electores.abrahamanaya.com",
-  "total_cursos": 5,
+  "total_cursos": 6,
   "cursos": [
     {
       "id": 1,
@@ -187,6 +187,43 @@
       ],
       "publicado_en": "29/06/2026",
       "slug": "curso-5-contraloría-social-y-vigilanci"
+    },
+    {
+      "id": 6,
+      "titulo": "Operación Política y Promoción del Voto: Guía Práctica para Representantes Electorales",
+      "descripcion": "Curso intermedio que capacita a ciudadanos, militantes y operadores políticos en técnicas de campaña electoral, movilización de votantes y estructura política. Aborda desde contacto directo con electores hasta cumplimiento normativo en procesos electorales.",
+      "nivel": "intermedio",
+      "num_sesiones": 3,
+      "duracion": "30 minutos por sesión",
+      "audiencia": "representantes electorales",
+      "sesiones": [
+        {
+          "numero": 1,
+          "titulo": "Operación Política y Promoción del Voto",
+          "duracion": "30 minutos por sesión",
+          "objetivo": "Capacitar representantes electorales en operación política legal y promoción efectiva del voto conforme a normativa electoral mexicana."
+        },
+        {
+          "numero": 2,
+          "titulo": "Fiscalización Electoral y Cumplimiento Normativo en Campañas",
+          "duracion": "30 minutos por sesión",
+          "objetivo": "Capacitar representantes electorales en mecanismos de fiscalización, detección de irregularidades y cumplimiento de normativas durante procesos electorales."
+        },
+        {
+          "numero": 3,
+          "titulo": "Transparencia, Rendición de Cuentas y Financiamiento en Campañas Electorales",
+          "duracion": "30 minutos por sesión",
+          "objetivo": "Capacitar representantes electorales en mecanismos de transparencia, reporte de gastos y cumplimiento de límites de financiamiento para garantizar campañas equitativas y legales."
+        }
+      ],
+      "objetivos": [
+        "Dominar técnicas de comunicación política y contacto directo con electores en comunidades",
+        "Aprender procedimientos legales de campaña, propaganda y registro de simpatizantes",
+        "Construir redes de apoyo y estructuras electorales efectivas en diferentes etapas",
+        "Ejecutar operación política el día de elección conforme a normativa electoral"
+      ],
+      "publicado_en": "29/06/2026",
+      "slug": "curso-6-operación-política-y-promoción"
     }
   ]
 }
