@@ -5,67 +5,67 @@
       "id": 1,
       "titulo": "Maneras de Ejercer el Voto",
       "subtitulo": "Voto duro, diferenciado y razonado en México",
-      "paginas": 25,
-      "precio": 79,
-      "precio_tachado": 119,
+      "paginas": 28,
+      "precio": 89,
+      "precio_tachado": 139,
       "categoria": "Voto",
       "color": "#1B4F72",
-      "descripcion": "Guía completa sobre las tres formas de ejercer tu voto y sus implicaciones democráticas según la Constitución."
+      "descripcion": "Guía completa sobre las tres formas de ejercer tu voto + plantillas de estrategia de voto y denuncia de coacción."
     },
     {
       "id": 2,
       "titulo": "Manual del Representante Electoral",
       "subtitulo": "Casilla, General y Coordinador de Sección",
-      "paginas": 19,
-      "precio": 69,
-      "precio_tachado": 99,
+      "paginas": 25,
+      "precio": 89,
+      "precio_tachado": 129,
       "categoria": "Elecciones 2027",
       "color": "#C0392B",
-      "descripcion": "Todo lo que necesitas saber sobre tus derechos, obligaciones y protocolos como representante electoral."
+      "descripcion": "Todo sobre tus derechos y protocolos + checklist, formato de protesta y bitácora de coordinador listos para usar."
     },
     {
       "id": 3,
       "titulo": "Campañas Políticas en Redes Sociales",
       "subtitulo": "Guía legal para candidatos y creadores de contenido",
-      "paginas": 15,
-      "precio": 59,
-      "precio_tachado": 89,
+      "paginas": 18,
+      "precio": 69,
+      "precio_tachado": 99,
       "categoria": "Campañas",
       "color": "#F39C12",
-      "descripcion": "Estrategia digital y normativa electoral aplicable a propaganda política en redes sociales."
+      "descripcion": "Estrategia digital y normativa + checklist de cumplimiento y plan semanal de contenido."
     },
     {
       "id": 4,
       "titulo": "Participación Ciudadana y Democracia",
       "subtitulo": "Incidencia política local en México",
-      "paginas": 14,
-      "precio": 49,
-      "precio_tachado": 79,
+      "paginas": 18,
+      "precio": 59,
+      "precio_tachado": 89,
       "categoria": "Civismo",
       "color": "#1A7A3C",
-      "descripcion": "Mecanismos legales para influir en decisiones de gobierno más allá del voto."
+      "descripcion": "Mecanismos legales de participación + formato de petición y plan de incidencia comunitaria."
     },
     {
       "id": 5,
       "titulo": "Derechos Laborales y Sindicales",
       "subtitulo": "Guía práctica del trabajador mexicano",
-      "paginas": 15,
-      "precio": 59,
-      "precio_tachado": 89,
+      "paginas": 19,
+      "precio": 69,
+      "precio_tachado": 99,
       "categoria": "Derechos Laborales",
       "color": "#6B1C2C",
-      "descripcion": "Cómo identificar violaciones laborales y defender tus derechos según la LFT."
+      "descripcion": "Identifica violaciones laborales + registro de jornada y formato de queja ante la STPS."
     },
     {
       "id": 6,
       "titulo": "Acceso a la Información y Transparencia",
       "subtitulo": "Fiscaliza el uso de recursos públicos",
-      "paginas": 12,
-      "precio": 49,
-      "precio_tachado": 79,
+      "paginas": 15,
+      "precio": 59,
+      "precio_tachado": 89,
       "categoria": "Transparencia",
       "color": "#5D6D7E",
-      "descripcion": "Aprende a solicitar información pública y exigir cuentas claras a tus autoridades."
+      "descripcion": "Solicita información pública + plantilla lista y plan de investigación en serie."
     }
   ]
 }
