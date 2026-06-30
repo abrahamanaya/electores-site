@@ -1,90 +1,229 @@
 {
-  "generado": "2026-06-27",
-  "total": 3,
+  "actualizacion": "2026-06-30T03:37:33.933595",
+  "marca": "Abraham Anaya · Electores 40+",
+  "web": "electores.abrahamanaya.com",
+  "total_cursos": 6,
   "cursos": [
     {
       "id": 1,
       "titulo": "Representante de Casilla, Representante General y Coordinador de Sección: Capacitación Electoral Ciudadana para las Elecciones Federales México 2027",
-      "descripcion": "Curso taller para preparar a ciudadanos que participarán como representantes electorales en el proceso federal 2027. Tres sesiones prácticas con fundamento legal verificable en la LGIPE.",
+      "descripcion": "Curso taller diseñado para preparar a ciudadanas y ciudadanos que deseen participar como Representantes de Casilla, Representantes Generales y Coordinadores de Sección en el proceso electoral federal de 2027 en México. Tres sesiones de máximo 30 minutos con enfoque práctico y accesible.",
       "nivel": "intermedio",
       "num_sesiones": 3,
       "duracion": "30 minutos por sesión",
-      "audiencia": "Representantes de Casilla, Representantes Generales y Coordinadores de Sección designados por partidos políticos, candidaturas y asociaciones civiles",
-      "objetivos": [
-        "Conocer el marco legal del representante electoral según Arts. 247-252 LGIPE",
-        "Dominar los 5 documentos electorales clave: Lista Nominal, Actas y Escrito de Protesta",
-        "Aplicar el protocolo de visita a casilla y gestionar el cierre de jornada electoral"
-      ],
+      "audiencia": "Representantes de Casilla, Representantes Generales y Coordinadores de Sección designados por partidos políticos, candidaturas independientes y asociaciones civiles",
       "sesiones": [
         {
           "numero": 1,
-          "titulo": "El Sistema Electoral Mexicano y el Papel del Representante Ciudadano"
+          "titulo": "El Sistema Electoral Mexicano y el Papel del Representante Ciudadano",
+          "duracion": "30 minutos",
+          "objetivo": "Que los participantes identifiquen la estructura del sistema electoral mexicano y comprendan la importancia de su participación como representantes ciudadanos en la jornada electoral de 2027"
         },
         {
           "numero": 2,
-          "titulo": "Representante de Casilla y General: Funciones, Documentos y Diferencias"
+          "titulo": "Representante de Casilla y Representante General: Funciones, Documentos y Diferencias",
+          "duracion": "30 minutos",
+          "objetivo": "Que los representantes electorales distingan con precisión las funciones del Representante de Casilla y el Representante General, y dominen los 5 documentos electorales clave durante la jornada"
         },
         {
           "numero": 3,
-          "titulo": "El Coordinador de Sección: Liderazgo, Protocolo y Cierre de Casilla"
+          "titulo": "El Coordinador de Sección: Liderazgo, Protocolo de Visita y Cierre de Casilla",
+          "duracion": "30 minutos",
+          "objetivo": "Que los Coordinadores de Sección comprendan su rol de liderazgo territorial, apliquen el protocolo de visita a casilla y gestionen correctamente el cierre y escrutinio conforme a la LGIPE"
         }
-      ]
+      ],
+      "objetivos": [
+        "Que los participantes conozcan el marco legal que rige la participación como representante electoral conforme a los Arts. 247-252 de la LGIPE",
+        "Que identifiquen y ejerzan los derechos y obligaciones del Representante de Casilla el día de la jornada electoral",
+        "Que dominen los 5 documentos electorales clave: Lista Nominal, Acta de Instalación, Acta de Escrutinio y Cómputo, Acta de Incidentes y Escrito de Protesta",
+        "Que el Coordinador de Sección comprenda su rol de liderazgo territorial y el protocolo de visita a casilla"
+      ],
+      "publicado_en": "30/06/2026",
+      "slug": "curso-1-representante-de-casilla,-repr"
     },
     {
       "id": 2,
       "titulo": "Campañas Políticas Modernas: Contenido Estratégico y Cumplimiento Electoral",
-      "descripcion": "Curso para candidatos, asesores y creadores de contenido digital sobre estrategia, normativa electoral y mejores prácticas en campañas políticas en México 2027.",
+      "descripcion": "Curso intermedio para ciudadanos sobre diseño, producción y difusión de contenidos digitales en campañas políticas. Enfatiza cumplimiento legal, narrativas persuasivas éticas y estrategias de marketing político efectivas.",
       "nivel": "intermedio",
       "num_sesiones": 3,
       "duracion": "30 minutos por sesión",
-      "audiencia": "Candidatos, asesores de campaña y creadores de contenido digital",
-      "objetivos": [
-        "Conocer la normativa electoral aplicable a campañas en redes sociales según la LEGIPE",
-        "Desarrollar estrategia de contenido digital efectiva y legal para campaña política",
-        "Identificar prácticas prohibidas y evitar sanciones del INE en medios digitales"
-      ],
+      "audiencia": "ciudadanos en general",
       "sesiones": [
         {
           "numero": 1,
-          "titulo": "Marco legal de campañas digitales en México"
+          "titulo": "Campañas Políticas Modernas: Marco Legal y Creación de Contenido Estratégico",
+          "duracion": "30 minutos por sesión",
+          "objetivo": "Comprender el marco legal electoral mexicano y principios de contenido estratégico en campañas políticas modernas. Identificar límites legales en comunicación política."
         },
         {
           "numero": 2,
-          "titulo": "Estrategia de contenido y plataformas clave"
+          "titulo": "Financiamiento Electoral y Transparencia en Campañas Políticas",
+          "duracion": "30 minutos por sesión",
+          "objetivo": "Comprender las reglas de financiamiento electoral, fuentes de recursos permitidas y obligaciones de transparencia en campañas políticas mexicanas."
         },
         {
           "numero": 3,
-          "titulo": "Cumplimiento electoral y manejo de crisis digital"
+          "titulo": "Regulación de Redes Sociales, Desinformación y Responsabilidad en Campañas Digitales",
+          "duracion": "30 minutos por sesión",
+          "objetivo": "Que los ciudadanos comprendan el marco legal sobre campañas digitales, identifiquen desinformación electoral y conozcan responsabilidades de candidatos y plataformas."
         }
-      ]
+      ],
+      "objetivos": [
+        "Dominar herramientas digitales para crear contenido político estratégico y persuasivo",
+        "Garantizar cumplimiento estricto de normativa electoral mexicana en campañas",
+        "Desarrollar narrativas éticas alineadas con marco legal de fiscalización",
+        "Aplicar marketing político efectivo respetando límites de gasto y difusión"
+      ],
+      "publicado_en": "30/06/2026",
+      "slug": "curso-2-campañas-políticas-modernas:-c"
     },
     {
       "id": 3,
-      "titulo": "Participación Ciudadana y Democracia en México: Incidencia Política Local",
-      "descripcion": "Taller para ciudadanos, activistas y organizaciones civiles sobre mecanismos de participación ciudadana, incidencia política local y derechos políticos en México.",
-      "nivel": "básico",
+      "titulo": "Participación Ciudadana y Democracia en México: Incidencia Política Local y Federal",
+      "descripcion": "Curso práctico para ciudadanos que deseen fortalecer su participación democrática, comunicación efectiva con autoridades electas y fiscalización política en niveles municipal, estatal y federal. Desarrolla competencias de incidencia ciudadana e influencia en decisiones públicas.",
+      "nivel": "intermedio",
       "num_sesiones": 3,
       "duracion": "30 minutos por sesión",
-      "audiencia": "Ciudadanos, activistas, líderes comunitarios y organizaciones de la sociedad civil",
-      "objetivos": [
-        "Identificar los mecanismos de participación ciudadana disponibles en México",
-        "Conocer los derechos políticos garantizados por la Constitución y la LGIPE",
-        "Desarrollar estrategias de incidencia política a nivel local y municipal"
-      ],
+      "audiencia": "ciudadanos en general",
       "sesiones": [
         {
           "numero": 1,
-          "titulo": "Derechos políticos y mecanismos de participación ciudadana en México"
+          "titulo": "Fundamentos de la Participación Ciudadana en México",
+          "duracion": "30 minutos por sesión",
+          "objetivo": "Comprender los derechos y mecanismos de participación ciudadana establecidos en la Constitución Política Mexicana. Identificar cómo los ciudadanos pueden incidir en decisiones públicas."
         },
         {
           "numero": 2,
-          "titulo": "Incidencia política local: cómo influir en decisiones de gobierno"
+          "titulo": "Mecanismos de Participación Ciudadana: Consulta Pública y Referéndum",
+          "duracion": "30 minutos",
+          "objetivo": "Que los ciudadanos conozcan y comprendan los mecanismos formales de participación directa en decisiones públicas. Identificar cuándo y cómo pueden ejercer consulta pública y referéndum en México."
         },
         {
           "numero": 3,
-          "titulo": "Organización ciudadana y construcción de agenda política"
+          "titulo": "Rendición de Cuentas y Transparencia: Herramientas de Control Ciudadano",
+          "duracion": "30 minutos por sesión",
+          "objetivo": "Que los ciudadanos comprendan mecanismos de rendición de cuentas y transparencia para ejercer control sobre autoridades. Identificarán herramientas legales para acceder a información pública y exigir responsabilidad."
         }
-      ]
+      ],
+      "objetivos": [
+        "Comprender mecanismos de participación ciudadana en democracia mexicana",
+        "Desarrollar habilidades de comunicación y diálogo con representantes electos",
+        "Ejercer fiscalización ciudadana sobre autoridades municipales, estatales y federales",
+        "Identificar canales de incidencia política para influir en políticas públicas"
+      ],
+      "publicado_en": "30/06/2026",
+      "slug": "curso-3-participación-ciudadana-y-demo"
+    },
+    {
+      "id": 4,
+      "titulo": "Maneras de Ejercer el Voto: Voto Duro, Diferenciado y Razonado en México",
+      "descripcion": "Curso de educación cívica que explora las tres principales formas en que los ciudadanos mexicanos pueden ejercer su voto: el voto duro como expresión de lealtad partidista, el voto diferenciado como estrategia de representación plural, y el voto razonado como herramienta de equilibrio democrático. Se analiza el marco legal constitucional y sus implicaciones sociales para las elecciones federales 2027.",
+      "nivel": "intermedio",
+      "num_sesiones": 3,
+      "duracion": "30 minutos por sesión",
+      "audiencia": "Ciudadanos en general",
+      "sesiones": [
+        {
+          "numero": 1,
+          "titulo": "¿Cómo puedo votar? Los tres tipos de voto y sus diferencias",
+          "duracion": "30 minutos",
+          "objetivo": "Que los participantes distingan y definan con claridad los tres tipos de voto (duro, diferenciado y razonado) con ejemplos reales de elecciones mexicanas recientes"
+        },
+        {
+          "numero": 2,
+          "titulo": "El marco legal del voto: tus derechos constitucionales como votante",
+          "duracion": "30 minutos",
+          "objetivo": "Que los participantes comprendan el marco constitucional y legal que garantiza la libertad de voto en México y cómo cada tipo de voto se ejerce conforme a la CPEUM y la LGIPE"
+        },
+        {
+          "numero": 3,
+          "titulo": "Implicaciones democráticas: ¿cómo tu voto construye o debilita la democracia?",
+          "duracion": "30 minutos",
+          "objetivo": "Que los participantes analicen las implicaciones sociales y democráticas de cada tipo de voto y desarrollen criterios propios para votar de forma informada en las elecciones federales 2027"
+        }
+      ],
+      "objetivos": [
+        "Que los participantes distingan y definan con claridad los tres tipos de voto: duro, diferenciado y razonado, con ejemplos reales de elecciones mexicanas",
+        "Que los participantes comprendan el marco constitucional y legal que garantiza la libertad de voto conforme al Art. 35 CPEUM y los Arts. 4-7 de la LGIPE",
+        "Que los participantes analicen las implicaciones sociales y democráticas de cada tipo de voto y desarrollen criterios propios para votar de forma informada en 2027"
+      ],
+      "publicado_en": "30/06/2026",
+      "slug": "curso-4-maneras-de-ejercer-el-voto:-vo"
+    },
+    {
+      "id": 5,
+      "titulo": "Contraloría Social y Vigilancia Ciudadana: Auditoría de lo Público",
+      "descripcion": "Curso intermedio que capacita ciudadanos en ejercicio de derechos de vigilancia sobre recursos públicos, decisiones legislativas y actos de autoridad. Integra marco jurídico mexicano con herramientas tecnológicas para organizar denuncias efectivas.",
+      "nivel": "intermedio",
+      "num_sesiones": 3,
+      "duracion": "30 minutos por sesión",
+      "audiencia": "ciudadanos en general",
+      "sesiones": [
+        {
+          "numero": 1,
+          "titulo": "Fundamentos de la Contraloría Social y Vigilancia Ciudadana",
+          "duracion": "30 minutos por sesión",
+          "objetivo": "Que los ciudadanos comprendan sus derechos y responsabilidades en la vigilancia de recursos públicos. Desarrollar capacidad para identificar irregularidades en programas gubernamentales."
+        },
+        {
+          "numero": 2,
+          "titulo": "Mecanismos de Vigilancia Ciudadana: Acceso a Información y Transparencia",
+          "duracion": "30 minutos por sesión",
+          "objetivo": "Que los ciudadanos conozcan y apliquen herramientas de acceso a información pública para ejercer vigilancia efectiva sobre instituciones."
+        },
+        {
+          "numero": 3,
+          "titulo": "Participación Ciudadana en Auditorías Sociales y Rendición de Cuentas",
+          "duracion": "30 minutos por sesión",
+          "objetivo": "Capacitar ciudadanos para participar activamente en auditorías sociales, exigir rendición de cuentas y utilizar mecanismos de denuncia ante irregularidades en la gestión pública."
+        }
+      ],
+      "objetivos": [
+        "Dominar base jurídica de contraloría social y derechos de vigilancia ciudadana",
+        "Utilizar tecnologías digitales para auditar gasto público y actos de autoridad",
+        "Ejercer vigilancia sobre poderes legislativo, ejecutivo y judicial",
+        "Organizar y formalizar denuncias, críticas e iniciativas ciudadanas"
+      ],
+      "publicado_en": "30/06/2026",
+      "slug": "curso-5-contraloría-social-y-vigilanci"
+    },
+    {
+      "id": 6,
+      "titulo": "Operación Política y Promoción del Voto: Guía Práctica para Representantes Electorales",
+      "descripcion": "Curso intermedio que capacita a ciudadanos, militantes y operadores políticos en técnicas de campaña electoral, movilización de votantes y estructura política. Aborda desde contacto directo con electores hasta cumplimiento normativo en procesos electorales.",
+      "nivel": "intermedio",
+      "num_sesiones": 3,
+      "duracion": "30 minutos por sesión",
+      "audiencia": "representantes electorales",
+      "sesiones": [
+        {
+          "numero": 1,
+          "titulo": "Operación Política y Promoción del Voto",
+          "duracion": "30 minutos por sesión",
+          "objetivo": "Capacitar representantes electorales en operación política legal y promoción efectiva del voto conforme a normativa electoral mexicana."
+        },
+        {
+          "numero": 2,
+          "titulo": "Fiscalización Electoral y Cumplimiento Normativo en Campañas",
+          "duracion": "30 minutos por sesión",
+          "objetivo": "Capacitar representantes electorales en mecanismos de fiscalización, detección de irregularidades y cumplimiento de normativas durante procesos electorales."
+        },
+        {
+          "numero": 3,
+          "titulo": "Transparencia, Rendición de Cuentas y Financiamiento en Campañas Electorales",
+          "duracion": "30 minutos por sesión",
+          "objetivo": "Capacitar representantes electorales en mecanismos de transparencia, reporte de gastos y cumplimiento de límites de financiamiento para garantizar campañas equitativas y legales."
+        }
+      ],
+      "objetivos": [
+        "Dominar técnicas de comunicación política y contacto directo con electores en comunidades",
+        "Aprender procedimientos legales de campaña, propaganda y registro de simpatizantes",
+        "Construir redes de apoyo y estructuras electorales efectivas en diferentes etapas",
+        "Ejecutar operación política el día de elección conforme a normativa electoral"
+      ],
+      "publicado_en": "30/06/2026",
+      "slug": "curso-6-operación-política-y-promoción"
     }
   ]
 }
