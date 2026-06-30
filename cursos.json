@@ -1,8 +1,8 @@
 {
-  "actualizacion": "2026-06-28T19:04:06.812131",
+  "actualizacion": "2026-06-29T18:43:24.492351",
   "marca": "Abraham Anaya · Electores 40+",
   "web": "electores.abrahamanaya.com",
-  "total_cursos": 4,
+  "total_cursos": 5,
   "cursos": [
     {
       "id": 1,
@@ -38,7 +38,7 @@
         "Que dominen los 5 documentos electorales clave: Lista Nominal, Acta de Instalación, Acta de Escrutinio y Cómputo, Acta de Incidentes y Escrito de Protesta",
         "Que el Coordinador de Sección comprenda su rol de liderazgo territorial y el protocolo de visita a casilla"
       ],
-      "publicado_en": "28/06/2026",
+      "publicado_en": "29/06/2026",
       "slug": "curso-1-representante-de-casilla,-repr"
     },
     {
@@ -75,7 +75,7 @@
         "Desarrollar narrativas éticas alineadas con marco legal de fiscalización",
         "Aplicar marketing político efectivo respetando límites de gasto y difusión"
       ],
-      "publicado_en": "28/06/2026",
+      "publicado_en": "29/06/2026",
       "slug": "curso-2-campañas-políticas-modernas:-c"
     },
     {
@@ -112,7 +112,7 @@
         "Ejercer fiscalización ciudadana sobre autoridades municipales, estatales y federales",
         "Identificar canales de incidencia política para influir en políticas públicas"
       ],
-      "publicado_en": "28/06/2026",
+      "publicado_en": "29/06/2026",
       "slug": "curso-3-participación-ciudadana-y-demo"
     },
     {
@@ -148,8 +148,45 @@
         "Que los participantes comprendan el marco constitucional y legal que garantiza la libertad de voto conforme al Art. 35 CPEUM y los Arts. 4-7 de la LGIPE",
         "Que los participantes analicen las implicaciones sociales y democráticas de cada tipo de voto y desarrollen criterios propios para votar de forma informada en 2027"
       ],
-      "publicado_en": "28/06/2026",
+      "publicado_en": "29/06/2026",
       "slug": "curso-4-maneras-de-ejercer-el-voto:-vo"
+    },
+    {
+      "id": 5,
+      "titulo": "Contraloría Social y Vigilancia Ciudadana: Auditoría de lo Público",
+      "descripcion": "Curso intermedio que capacita ciudadanos en ejercicio de derechos de vigilancia sobre recursos públicos, decisiones legislativas y actos de autoridad. Integra marco jurídico mexicano con herramientas tecnológicas para organizar denuncias efectivas.",
+      "nivel": "intermedio",
+      "num_sesiones": 3,
+      "duracion": "30 minutos por sesión",
+      "audiencia": "ciudadanos en general",
+      "sesiones": [
+        {
+          "numero": 1,
+          "titulo": "Fundamentos de la Contraloría Social y Vigilancia Ciudadana",
+          "duracion": "30 minutos por sesión",
+          "objetivo": "Que los ciudadanos comprendan sus derechos y responsabilidades en la vigilancia de recursos públicos. Desarrollar capacidad para identificar irregularidades en programas gubernamentales."
+        },
+        {
+          "numero": 2,
+          "titulo": "Mecanismos de Vigilancia Ciudadana: Acceso a Información y Transparencia",
+          "duracion": "30 minutos por sesión",
+          "objetivo": "Que los ciudadanos conozcan y apliquen herramientas de acceso a información pública para ejercer vigilancia efectiva sobre instituciones."
+        },
+        {
+          "numero": 3,
+          "titulo": "Participación Ciudadana en Auditorías Sociales y Rendición de Cuentas",
+          "duracion": "30 minutos por sesión",
+          "objetivo": "Capacitar ciudadanos para participar activamente en auditorías sociales, exigir rendición de cuentas y utilizar mecanismos de denuncia ante irregularidades en la gestión pública."
+        }
+      ],
+      "objetivos": [
+        "Dominar base jurídica de contraloría social y derechos de vigilancia ciudadana",
+        "Utilizar tecnologías digitales para auditar gasto público y actos de autoridad",
+        "Ejercer vigilancia sobre poderes legislativo, ejecutivo y judicial",
+        "Organizar y formalizar denuncias, críticas e iniciativas ciudadanas"
+      ],
+      "publicado_en": "29/06/2026",
+      "slug": "curso-5-contraloría-social-y-vigilanci"
     }
   ]
 }
