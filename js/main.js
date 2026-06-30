@@ -116,3 +116,41 @@ async function enviarCotizacion(e) {
   btn.disabled = false;
   btn.textContent = 'Solicitar cotización →';
 }
+
+/* ===== EBOOKS DINÁMICOS ===== */
+async function cargarEbooks() {
+  const grid = document.getElementById('ebooks-grid');
+  if (!grid) return;
+  try {
+    const resp = await fetch('ebooks.json');
+    const data = await resp.json();
+    grid.innerHTML = data.ebooks.map(eb => `
+      <div class="ebook-card">
+        <div class="ebook-cover" style="background:linear-gradient(135deg, ${eb.color}, ${eb.color}cc)">
+          <span class="ebook-cover-badge">${eb.categoria}</span>
+          <div class="ebook-cover-icon">📖</div>
+          <div class="ebook-cover-titulo">${eb.titulo}</div>
+        </div>
+        <div class="ebook-body">
+          <div class="ebook-subtitulo">${eb.subtitulo}</div>
+          <div class="ebook-meta">
+            <span>📄 ${eb.paginas} págs.</span>
+            <span>📥 PDF</span>
+          </div>
+          <div class="ebook-precios">
+            <span class="ebook-precio-tachado">$${eb.precio_tachado}</span>
+            <span class="ebook-precio-final">$${eb.precio}</span>
+            <span class="ebook-precio-moneda">MXN</span>
+          </div>
+          <a href="https://wa.me/523341150010?text=${encodeURIComponent('Hola Abraham, quiero el ebook: ' + eb.titulo)}"
+             target="_blank" class="btn btn-primary btn-sm ebook-cta" style="width:100%;text-align:center;display:block">
+            Comprar ahora →
+          </a>
+        </div>
+      </div>
+    `).join('');
+  } catch(e) {
+    grid.innerHTML = '<p style="color:var(--muted)">Próximamente disponible.</p>';
+  }
+}
+document.addEventListener('DOMContentLoaded', cargarEbooks);

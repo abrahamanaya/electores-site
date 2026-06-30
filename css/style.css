@@ -681,3 +681,76 @@ em { font-style: italic; color: var(--accent); }
   .cotizacion-layout { grid-template-columns: 1fr; }
   .form-row-2 { grid-template-columns: 1fr; }
 }
+
+/* ===== EBOOKS ===== */
+.section-ebooks { background: var(--light); }
+.ebooks-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 20px;
+  margin: 40px 0;
+}
+.ebook-card {
+  background: var(--white);
+  border: 1.5px solid var(--border);
+  border-radius: 14px;
+  overflow: hidden;
+  transition: transform .2s, box-shadow .2s;
+  display: flex;
+  flex-direction: column;
+}
+.ebook-card:hover { transform: translateY(-4px); box-shadow: 0 12px 28px rgba(0,0,0,.1); }
+.ebook-cover {
+  height: 160px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  position: relative;
+}
+.ebook-cover-badge {
+  position: absolute; top: 10px; left: 10px;
+  background: rgba(0,0,0,.3); color: white;
+  font-size: .68rem; font-weight: 700;
+  padding: 3px 10px; border-radius: 12px;
+  text-transform: uppercase; letter-spacing: .5px;
+}
+.ebook-cover-icon { font-size: 2.2rem; margin-bottom: 8px; }
+.ebook-cover-titulo { font-weight: 800; font-size: 1.05rem; line-height: 1.3; }
+.ebook-body { padding: 18px 20px; display: flex; flex-direction: column; flex: 1; }
+.ebook-subtitulo { font-size: .85rem; color: var(--muted); margin-bottom: 8px; line-height: 1.5; }
+.ebook-meta { font-size: .75rem; color: var(--muted); margin-bottom: 14px; display: flex; gap: 10px; }
+.ebook-precios { display: flex; align-items: baseline; gap: 8px; margin-bottom: 14px; }
+.ebook-precio-tachado { text-decoration: line-through; color: var(--muted); font-size: .85rem; }
+.ebook-precio-final { font-size: 1.4rem; font-weight: 800; color: var(--brand); }
+.ebook-precio-moneda { font-size: .75rem; color: var(--muted); }
+.ebook-cta { margin-top: auto; }
+
+.ebooks-paquete { margin-top: 40px; }
+.paquete-card {
+  background: linear-gradient(135deg, var(--dark), #1B4F72);
+  color: white;
+  border-radius: 18px;
+  padding: 40px;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+.paquete-badge {
+  position: absolute; top: 20px; right: -38px;
+  background: var(--gold); color: var(--dark);
+  font-weight: 800; font-size: .75rem;
+  padding: 6px 50px; transform: rotate(40deg);
+}
+.paquete-card h3 { color: white; font-size: 1.6rem; margin-bottom: 10px; }
+.paquete-card p { color: rgba(255,255,255,.8); max-width: 560px; margin: 0 auto 20px; font-size: .92rem; line-height: 1.6; }
+.paquete-precio { margin-bottom: 24px; }
+.paquete-precio .precio-tachado { text-decoration: line-through; color: rgba(255,255,255,.5); font-size: 1.1rem; margin-right: 12px; }
+.paquete-precio .precio-final { font-size: 2.4rem; font-weight: 900; color: var(--gold); }
+
+@media (max-width: 640px) {
+  .ebooks-grid { grid-template-columns: 1fr; }
+}
