@@ -1,46 +1,9 @@
 {
-  "actualizacion": "2026-06-30T03:37:33.933595",
+  "actualizacion": "2026-07-07T00:19:13.823397",
   "marca": "Abraham Anaya · Electores 40+",
   "web": "electores.abrahamanaya.com",
   "total_cursos": 6,
   "cursos": [
-    {
-      "id": 1,
-      "titulo": "Representante de Casilla, Representante General y Coordinador de Sección: Capacitación Electoral Ciudadana para las Elecciones Federales México 2027",
-      "descripcion": "Curso taller diseñado para preparar a ciudadanas y ciudadanos que deseen participar como Representantes de Casilla, Representantes Generales y Coordinadores de Sección en el proceso electoral federal de 2027 en México. Tres sesiones de máximo 30 minutos con enfoque práctico y accesible.",
-      "nivel": "intermedio",
-      "num_sesiones": 3,
-      "duracion": "30 minutos por sesión",
-      "audiencia": "Representantes de Casilla, Representantes Generales y Coordinadores de Sección designados por partidos políticos, candidaturas independientes y asociaciones civiles",
-      "sesiones": [
-        {
-          "numero": 1,
-          "titulo": "El Sistema Electoral Mexicano y el Papel del Representante Ciudadano",
-          "duracion": "30 minutos",
-          "objetivo": "Que los participantes identifiquen la estructura del sistema electoral mexicano y comprendan la importancia de su participación como representantes ciudadanos en la jornada electoral de 2027"
-        },
-        {
-          "numero": 2,
-          "titulo": "Representante de Casilla y Representante General: Funciones, Documentos y Diferencias",
-          "duracion": "30 minutos",
-          "objetivo": "Que los representantes electorales distingan con precisión las funciones del Representante de Casilla y el Representante General, y dominen los 5 documentos electorales clave durante la jornada"
-        },
-        {
-          "numero": 3,
-          "titulo": "El Coordinador de Sección: Liderazgo, Protocolo de Visita y Cierre de Casilla",
-          "duracion": "30 minutos",
-          "objetivo": "Que los Coordinadores de Sección comprendan su rol de liderazgo territorial, apliquen el protocolo de visita a casilla y gestionen correctamente el cierre y escrutinio conforme a la LGIPE"
-        }
-      ],
-      "objetivos": [
-        "Que los participantes conozcan el marco legal que rige la participación como representante electoral conforme a los Arts. 247-252 de la LGIPE",
-        "Que identifiquen y ejerzan los derechos y obligaciones del Representante de Casilla el día de la jornada electoral",
-        "Que dominen los 5 documentos electorales clave: Lista Nominal, Acta de Instalación, Acta de Escrutinio y Cómputo, Acta de Incidentes y Escrito de Protesta",
-        "Que el Coordinador de Sección comprenda su rol de liderazgo territorial y el protocolo de visita a casilla"
-      ],
-      "publicado_en": "30/06/2026",
-      "slug": "curso-1-representante-de-casilla,-repr"
-    },
     {
       "id": 2,
       "titulo": "Campañas Políticas Modernas: Contenido Estratégico y Cumplimiento Electoral",
@@ -75,7 +38,7 @@
         "Desarrollar narrativas éticas alineadas con marco legal de fiscalización",
         "Aplicar marketing político efectivo respetando límites de gasto y difusión"
       ],
-      "publicado_en": "30/06/2026",
+      "publicado_en": "07/07/2026",
       "slug": "curso-2-campañas-políticas-modernas:-c"
     },
     {
@@ -112,7 +75,7 @@
         "Ejercer fiscalización ciudadana sobre autoridades municipales, estatales y federales",
         "Identificar canales de incidencia política para influir en políticas públicas"
       ],
-      "publicado_en": "30/06/2026",
+      "publicado_en": "07/07/2026",
       "slug": "curso-3-participación-ciudadana-y-demo"
     },
     {
@@ -148,7 +111,7 @@
         "Que los participantes comprendan el marco constitucional y legal que garantiza la libertad de voto conforme al Art. 35 CPEUM y los Arts. 4-7 de la LGIPE",
         "Que los participantes analicen las implicaciones sociales y democráticas de cada tipo de voto y desarrollen criterios propios para votar de forma informada en 2027"
       ],
-      "publicado_en": "30/06/2026",
+      "publicado_en": "07/07/2026",
       "slug": "curso-4-maneras-de-ejercer-el-voto:-vo"
     },
     {
@@ -185,7 +148,7 @@
         "Ejercer vigilancia sobre poderes legislativo, ejecutivo y judicial",
         "Organizar y formalizar denuncias, críticas e iniciativas ciudadanas"
       ],
-      "publicado_en": "30/06/2026",
+      "publicado_en": "07/07/2026",
       "slug": "curso-5-contraloría-social-y-vigilanci"
     },
     {
@@ -222,8 +185,39 @@
         "Construir redes de apoyo y estructuras electorales efectivas en diferentes etapas",
         "Ejecutar operación política el día de elección conforme a normativa electoral"
       ],
-      "publicado_en": "30/06/2026",
+      "publicado_en": "07/07/2026",
       "slug": "curso-6-operación-política-y-promoción"
+    },
+    {
+      "id": 9,
+      "titulo": "Seguridad Social IMSS para Operadores de Plataformas Digitales: Derechos, Trámites y Protección Laboral en México",
+      "descripcion": "Guía integral que te capacita para ejercer y defender tus derechos laborales como chofer, repartidor u operador de plataformas digitales. Aprenderás a identificar tus obligaciones ante el IMSS, acceder a modalidades de aseguramiento, comprender beneficios médicos y prestaciones, y utilizar mecanismos legales para garantizar tu protección social conforme a la legislación mexicana vigente.",
+      "nivel": "intermedio",
+      "num_sesiones": 2,
+      "duracion": "30 minutos por sesión",
+      "audiencia": "ciudadanos en general",
+      "sesiones": [
+        {
+          "numero": 1,
+          "titulo": "Derechos de Seguridad Social IMSS para Choferes y Repartidores de Plataformas Digitales: Marco Legal y Cobertura Obligatoria",
+          "duracion": "30 minutos por sesión",
+          "objetivo": "Al finalizar esta sesión, podrás identificar tus derechos de afiliación obligatoria al IMSS como trabajador de plataforma digital, distinguir entre relación laboral subordinada y prestación de servicios independientes, y conocer los mecanismos legales para exigir tu cobertura de seguridad social conforme a la reforma laboral de 2022."
+        },
+        {
+          "numero": 2,
+          "titulo": "Afiliación, Cotización y Derechos Prestacionales del IMSS para Trabajadores de Plataformas Digitales",
+          "duracion": "30 minutos por sesión",
+          "objetivo": "Al finalizar esta sesión, podrás: (1) Identificar los mecanismos de afiliación obligatoria ante el IMSS como trabajador subordinado de plataforma digital; (2) Calcular y validar el monto de cotizaciones patronales y obrero que te corresponde según tu salario base; (3) Ejercer y exigir el acceso a prestaciones en especie (atención médica, farmacia, maternidad) y en dinero (incapacidad, pensión por invalidez) conforme a la LFT y normativas del IMSS."
+        }
+      ],
+      "objetivos": [
+        "Al terminar esta guía, podrás: Identificar y validar tu condición laboral como trabajador dependiente o independiente, determinando qué modalidad de aseguramiento ante el IMSS te corresponde según la Ley Federal del Trabajo y la jurisprudencia sobre plataformas digitales.",
+        "Al terminar esta guía, podrás: Tramitar tu afiliación al IMSS en las modalidades disponibles (Régimen Obligatorio, Seguro de Salud para la Familia, Trabajador Independiente), comprendiendo costos, documentación requerida y plazos administrativos.",
+        "Al terminar esta guía, podrás: Acceder y utilizar los servicios médicos, prestaciones en especie y en dinero que te corresponden como asegurado, incluyendo incapacidades, pensiones por invalidez y cobertura de enfermedades profesionales.",
+        "Al terminar esta guía, podrás: Ejercer tus derechos de defensa ante el IMSS mediante recursos administrativos y acciones ante la Junta Federal de Conciliación y Arbitraje, identificando violaciones a tus prestaciones sociales."
+      ],
+      "publicado_en": "07/07/2026",
+      "slug": "curso-9-seguridad-social-imss-para-ope"
     }
   ]
 }
