@@ -72,6 +72,18 @@
       "color": "#5D6D7E",
       "descripcion": "Solicita información pública + plantilla lista y plan de investigación en serie.",
       "link": "https://pay.hotmart.com/V106555033K"
+    },
+    {
+      "id": 7,
+      "titulo": "Seguridad Social IMSS para Operadores de Plataformas Digitales",
+      "subtitulo": "Derechos, Trámites y Protección Laboral en México",
+      "paginas": 20,
+      "precio": 199,
+      "precio_tachado": 249,
+      "categoria": "Seguridad Social",
+      "color": "#10548C",
+      "descripcion": "Guía práctica para proteger tu trabajo en la economía digital. Derechos, trámites y protección laboral ante el IMSS.",
+      "link": "https://pay.hotmart.com/L106640779M"
     }
   ]
 }
