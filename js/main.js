@@ -1,3 +1,9 @@
+// ===== AÑO DEL FOOTER =====
+document.addEventListener('DOMContentLoaded', () => {
+  const yearEl = document.getElementById('footer-year');
+  if (yearEl) yearEl.textContent = new Date().getFullYear();
+});
+
 // ===== NAV TOGGLE (mobile) =====
 function toggleMenu() {
   const nav = document.getElementById('navLinks');
@@ -55,12 +61,12 @@ styleEl.textContent = `.reveal-target.visible { opacity: 1 !important; transform
 document.head.appendChild(styleEl);
 
 /* ===== FORMULARIO DE COTIZACIÓN ===== */
-async function enviarCotizacion(e) {
+function enviarCotizacion(e) {
   e.preventDefault();
   const btn = document.getElementById('btn-cotizar');
   const res_div = document.getElementById('cot-resultado');
   btn.disabled = true;
-  btn.textContent = '⏳ Enviando...';
+  btn.textContent = '⏳ Abriendo tu correo...';
 
   const payload = {
     nombre:      document.getElementById('cot-nombre').value,
@@ -74,44 +80,22 @@ async function enviarCotizacion(e) {
     mensaje:     document.getElementById('cot-mensaje').value,
   };
 
-  try {
-    // Enviar a la app local si está corriendo, si no usar mailto
-    const resp = await fetch('http://localhost:5000/cotizaciones/nueva', {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify(payload),
-      mode: 'cors',
-    });
-    const data = await resp.json();
+  // Sitio estático sin backend: se compone directamente el correo con los datos del formulario.
+  const asunto = encodeURIComponent(`Cotización — ${payload.tipo_cliente} — ${payload.nombre}`);
+  const cuerpo = encodeURIComponent(
+    `Nombre: ${payload.nombre}\nOrganización: ${payload.organizacion}\n` +
+    `Email: ${payload.email}\nTeléfono: ${payload.telefono}\n` +
+    `Tipo: ${payload.tipo_cliente}\nModalidad: ${payload.modalidad}\n` +
+    `Personas: ${payload.num_personas}\nTema: ${payload.tema}\n\n${payload.mensaje}`
+  );
+  window.location.href = `mailto:contacto@abrahamanaya.com?subject=${asunto}&body=${cuerpo}`;
 
-    if (data.ok) {
-      res_div.style.display = 'block';
-      res_div.innerHTML = `<div style="background:#f0fff4;border:1.5px solid #25D366;border-radius:10px;padding:20px;text-align:center">
-        <div style="font-size:2rem;margin-bottom:8px">✅</div>
-        <strong>¡Solicitud recibida!</strong><br/>
-        <span style="color:#666;font-size:.9rem">Te contactaremos en menos de 24 horas a ${payload.email}</span>
-      </div>`;
-      document.getElementById('form-cotizacion').reset();
-    } else {
-      throw new Error(data.error || 'Error desconocido');
-    }
-  } catch(err) {
-    // Fallback: abrir correo
-    const asunto = encodeURIComponent(`Cotización — ${payload.tipo_cliente} — ${payload.nombre}`);
-    const cuerpo = encodeURIComponent(
-      `Nombre: ${payload.nombre}\nOrganización: ${payload.organizacion}\n` +
-      `Email: ${payload.email}\nTeléfono: ${payload.telefono}\n` +
-      `Tipo: ${payload.tipo_cliente}\nModalidad: ${payload.modalidad}\n` +
-      `Personas: ${payload.num_personas}\nTema: ${payload.tema}\n\n${payload.mensaje}`
-    );
-    window.location.href = `mailto:contacto@abrahamanaya.com?subject=${asunto}&body=${cuerpo}`;
-
-    res_div.style.display = 'block';
-    res_div.innerHTML = `<div style="background:#fff8e1;border:1.5px solid #F39C12;border-radius:10px;padding:16px;font-size:.88rem">
-      📧 Se abrió tu cliente de correo con los datos prellenados. Si no se abrió,
-      escríbenos directamente a <a href="mailto:contacto@abrahamanaya.com">contacto@abrahamanaya.com</a>
-    </div>`;
-  }
+  res_div.style.display = 'block';
+  res_div.innerHTML = `<div style="background:#fff8e1;border:1.5px solid #F39C12;border-radius:10px;padding:16px;font-size:.88rem">
+    📧 Se abrió tu cliente de correo con los datos prellenados. Si no se abrió,
+    escríbenos directamente a <a href="mailto:contacto@abrahamanaya.com">contacto@abrahamanaya.com</a>
+    o por <a href="https://wa.me/523341150010">WhatsApp</a>.
+  </div>`;
 
   btn.disabled = false;
   btn.textContent = 'Solicitar cotización →';
