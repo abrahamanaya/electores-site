@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://electores.abrahamanaya.com/sitemap.xml
