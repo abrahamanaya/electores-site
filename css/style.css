@@ -120,6 +120,15 @@ em { font-style: italic; color: var(--accent); }
 }
 .btn-white:hover { background: var(--light); }
 
+.btn-disabled {
+  background: var(--light);
+  color: var(--muted);
+  border-color: var(--light);
+  cursor: default;
+  justify-content: center;
+}
+.btn-disabled:hover { transform: none; box-shadow: none; }
+
 .btn-lg { padding: 17px 34px; font-size: 1.05rem; }
 .btn-sm { padding: 10px 20px; font-size: .85rem; }
 
